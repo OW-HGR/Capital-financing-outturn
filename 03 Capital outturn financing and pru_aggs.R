@@ -118,6 +118,6 @@ setwd(output_folder)
 
 financing_pru_wide <- spread(financing_pru, Year, value, fill = NA)
 
-filter(financing_pru_wide, data_set == "Financing") %>% write.csv(file = "Capital financing outturn, 2005-05 to 2018-19.csv", row.names = FALSE, na = "")
-filter(financing_pru_wide, data_set == "Prudential") %>% write.csv(file = "Prudential indicators, 2005-05 to 2018-19.csv", row.names = FALSE, na = "")
+filter(financing_pru_wide, data_set == "Financing") %>% write.csv(file = "Capital financing outturn, 2004-05 to 2018-19.csv", row.names = FALSE, na = "")
+filter(financing_pru_wide, data_set == "Prudential") %>% write.csv(file = "Prudential indicators, 2004-05 to 2018-19.csv", row.names = FALSE, na = "")
 
