@@ -1,0 +1,647 @@
+original_LA_name,continuity_LA_name
+adur,Adur
+allerdale,Allerdale
+alnwick,Alnwick
+amber_valley,Amber Valley
+arun,Arun
+ashfield,Ashfield
+ashford,Ashford
+avon_combined_fire_and_rescue_authority,Avon Combined Fire and Rescue Authority
+avon_combined_fire_authority,Avon Combined Fire and Rescue Authority
+avon_somerset_police_and_crime_commissioner_and_chief_cons,Avon & Somerset Police
+avon_somerset_police_and_crime_commissioner_and_chief_constable,Avon & Somerset Police
+avon_somerset_police_authority,Avon & Somerset Police
+aylesbury_vale,Aylesbury Vale
+babergh,Babergh
+barking_dagenham,Barking & Dagenham
+barnet,Barnet
+barnsley,Barnsley
+barrow_in_furness,Barrow-in-Furness
+basildon,Basildon
+basingstoke_deane,Basingstoke & Deane
+bassetlaw,Bassetlaw
+bath_ne_somerset_ua,Bath & North East Somerset
+bath_north_east_somerset,Bath & North East Somerset
+bedford,Bedford
+bedford_ua,Bedford
+bedfordshire,Bedfordshire
+bedfordshire_combined_fire_authority,Bedfordshire Combined Fire Authority
+bedfordshire_police_and_crime_commissioner_and_chief_constab,Bedfordshire Police
+bedfordshire_police_and_crime_commissioner_and_chief_constable,Bedfordshire Police
+bedfordshire_police_authority,Bedfordshire Police
+berkshire_combined_fire_authority,Berkshire Fire Authority
+berwick_upon_tweed,Berwick-upon-Tweed
+bexley,Bexley
+birmingham,Birmingham
+blaby,Blaby
+blackburn_with_darwen,Blackburn with Darwen
+blackburn_with_darwen_ua,Blackburn with Darwen
+blackpool,Blackpool
+blackpool_ua,Blackpool
+blyth_valley,Blyth Valley
+bolsover,Bolsover
+bolton,Bolton
+boston,Boston
+bournemouth,Bournemouth
+bournemouth_ua,Bournemouth
+bracknell_forest,Bracknell Forest
+bracknell_forest_ua,Bracknell Forest
+bradford,Bradford
+braintree,Braintree
+breckland,Breckland
+brent,Brent
+brentwood,Brentwood
+bridgnorth,Bridgnorth
+brighton_hove,Brighton & Hove
+brighton_hove_ua,Brighton & Hove
+bristol,Bristol
+bristol_ua,Bristol
+broadland,Broadland
+bromley,Bromley
+bromsgrove,Bromsgrove
+broxbourne,Broxbourne
+broxtowe,Broxtowe
+buckinghamshire,Buckinghamshire
+buckinghamshire_combined_fire_authority,Buckinghamshire & Milton Keynes Combined Fire Authority
+buckinghamshire_milton_keynes_combined_fire_authority,Buckinghamshire & Milton Keynes Combined Fire Authority
+burnley,Burnley
+bury,Bury
+calderdale,Calderdale
+cambridge,Cambridge
+cambridgeshire,Cambridgeshire
+cambridgeshire_and_peterborough_combined_authority,Cambridgeshire and Peterborough Combined Authority
+cambridgeshire_combined_fire_authority,Cambridgeshire Combined Fire Authority
+cambridgeshire_police_and_crime_commissioner_and_chief_const,Cambridgeshire Police
+cambridgeshire_police_and_crime_commissioner_and_chief_constable,Cambridgeshire Police
+cambridgeshire_police_authority,Cambridgeshire Police
+camden,Camden
+cannock_chase,Cannock Chase
+canterbury,Canterbury
+caradon,Caradon
+carlisle,Carlisle
+carrick,Carrick
+castle_morpeth,Castle Morpeth
+castle_point,Castle Point
+central_bedfordshire,Central Bedfordshire
+central_bedfordshire_ua,Central Bedfordshire
+charnwood,Charnwood
+chelmsford,Chelmsford
+cheltenham,Cheltenham
+cherwell,Cherwell
+cheshire,Cheshire
+cheshire_combined_fire_authority,Cheshire Combined Fire Authority
+cheshire_east,Cheshire East
+cheshire_east_ua,Cheshire East
+cheshire_police_and_crime_commissioner_and_chief_constable,Cheshire Police
+cheshire_police_authority,Cheshire Police
+cheshire_west_and_chester_ua,Cheshire West & Chester
+cheshire_west_chester,Cheshire West & Chester
+cheshire_west_chester_ua,Cheshire West & Chester
+chester,Chester
+chester_le_street,Chester-le-Street
+chesterfield,Chesterfield
+chichester,Chichester
+chiltern,Chiltern
+chorley,Chorley
+christchurch,Christchurch
+city_of_london,City of London
+cleveland_combined_fire_authority,Cleveland Combined Fire Authority
+cleveland_police_and_crime_commissioner_and_chief_constable,Cleveland Police
+cleveland_police_authority,Cleveland Police
+colchester,Colchester
+congleton,Congleton
+copeland,Copeland
+corby,Corby
+cornwall,Cornwall
+cornwall_ua,Cornwall
+cotswold,Cotswold
+county_durham_ua,Durham
+coventry,Coventry
+craven,Craven
+crawley,Crawley
+crewe_nantwich,Crewe & Nantwich
+croydon,Croydon
+cumbria,Cumbria
+cumbria_police_and_crime_commissioner_and_chief_constable,Cumbria Police
+cumbria_police_authority,Cumbria Police
+dacorum,Dacorum
+darlington,Darlington
+darlington_ua,Darlington
+dartford,Dartford
+dartmoor_national_park_authority,Dartmoor National Park Authority
+daventry,Daventry
+derby,Derby
+derby_city_ua,Derby
+derbyshire,Derbyshire
+derbyshire_combined_fire_authority,Derbyshire Combined Fire Authority
+derbyshire_dales,Derbyshire Dales
+derbyshire_police_and_crime_commissioner_and_chief_constable,Derbyshire Police
+derbyshire_police_authority,Derbyshire Police
+derwentside,Derwentside
+devon,Devon
+devon_and_somerset_combined_fire_authority,Devon & Somerset Combined Fire Authority
+devon_combined_fire_authority,Devon & Somerset Combined Fire Authority
+devon_cornwall_police_and_crime_commissioner_and_chief_constable,Devon & Cornwall Police
+devon_cornwall_police_authority,Devon & Cornwall Police
+devon_somerset_combined_fire_authority,Devon & Somerset Combined Fire Authority
+doncaster,Doncaster
+dorset,Dorset
+dorset_and_wiltshire_combined_fire_authority,Dorset and Wiltshire Combined Fire Authority
+dorset_combined_fire_authority,Dorset Combined Fire Authority
+dorset_police_and_crime_commissioner_and_chief_constable,Dorset Police
+dorset_police_authority,Dorset Police
+dorset_wiltshire_fire_authority,Dorset and Wiltshire Combined Fire Authority
+dover,Dover
+dudley,Dudley
+durham,Durham
+durham_city,Durham City
+durham_combined_fire_authority,Durham Combined Fire Authority
+durham_police_and_crime_commissioner_and_chief_constable,Durham Police
+durham_police_authority,Durham Police
+durham_ua,Durham
+ealing,Ealing
+easington,Easington
+east_cambridgeshire,East Cambridgeshire
+east_devon,East Devon
+east_dorset,East Dorset
+east_hampshire,East Hampshire
+east_hertfordshire,East Hertfordshire
+east_lindsey,East Lindsey
+east_london_waste_authority,East London Waste Authority
+east_northamptonshire,East Northamptonshire
+east_riding_of_yorkshire,East Riding of Yorkshire
+east_riding_of_yorkshire_ua,East Riding of Yorkshire
+east_staffordshire,East Staffordshire
+east_sussex,East Sussex
+east_sussex_combined_fire_authority,East Sussex Combined Fire Authority
+eastbourne,Eastbourne
+eastleigh,Eastleigh
+eden,Eden
+ellesmere_port_neston,Ellesmere Port & Neston
+elmbridge,Elmbridge
+enfield,Enfield
+england,England
+england_adjusted,England (grossed)
+england_excluding_double_counting,"England (grossed, with GLA adjustment)"
+england_grossed,England (grossed)
+england_grossed_excluding_double_counting,"England (grossed, with GLA adjustment)"
+epping_forest,Epping Forest
+epsom_ewell,Epsom & Ewell
+erewash,Erewash
+essex,Essex
+essex_combined_fire_authority,Essex Fire
+essex_police,Essex Police
+essex_police_2000,Essex Police
+essex_police_and_crime_commissioner_and_chief_constable,Essex Police
+essex_police_fire_and_crime_commissioner_fire_and_rescue_authority,Essex Fire
+essex_police_fire_and_crime_commissioner_police_authority,Essex Police
+exeter,Exeter
+exmoor_national_park_authority,Exmoor National Park Authority
+fareham,Fareham
+fenland,Fenland
+folkestone_hythe,Folkestone & Hythe
+forest_heath,Forest Heath
+forest_of_dean,Forest of Dean
+fylde,Fylde
+gateshead,Gateshead
+gedling,Gedling
+gloucester,Gloucester
+gloucestershire,Gloucestershire
+gloucestershire_police_and_crime_commissioner_and_chief_constable,Gloucestershire Police
+gloucestershire_police_authority,Gloucestershire Police
+gosport,Gosport
+gravesham,Gravesham
+great_yarmouth,Great Yarmouth
+greater_london_authority,Greater London Authority
+greater_london_magistrates_courts_authority,Greater London Magistrates Court Authority
+greater_manchester_combined_authority,Greater Manchester Combined Authority
+greater_manchester_fire_cd_authority,Greater Manchester Fire & CD Authority
+greater_manchester_integrated_pss_authority,Greater Manchester Integrated Transport Authority
+greater_manchester_integrated_transport_authority,Greater Manchester Integrated Transport Authority
+greater_manchester_passenger_transport_authority,Greater Manchester Integrated Transport Authority
+greater_manchester_police_and_crime_commissioner_and_chief_constable,Greater Manchester Police
+greater_manchester_police_authority,Greater Manchester Police
+greater_manchester_probation_committee,Greater Manchester Probation Committee
+greater_manchester_waste_disposal_authority,Greater Manchester Waste Disposal Authority
+greenwich,Greenwich
+guildford,Guildford
+hackney,Hackney
+halton,Halton
+halton_ua,Halton
+hambleton,Hambleton
+hammersmith_fulham,Hammersmith & Fulham
+hampshire,Hampshire
+hampshire_combined_fire_and_rescue_authority,Hampshire Combined Fire and Rescue Authority
+hampshire_combined_fire_authority,Hampshire Combined Fire and Rescue Authority
+hampshire_police_and_crime_commissioner_and_chief_constable,Hampshire Police
+hampshire_police_authority,Hampshire Police
+harborough,Harborough
+haringey,Haringey
+harlow,Harlow
+harrogate,Harrogate
+harrow,Harrow
+hart,Hart
+hartlepool,Hartlepool
+hartlepool_ua,Hartlepool
+hastings,Hastings
+havant,Havant
+havering,Havering
+hereford_worcester_combined_fire_authority,Hereford & Worcester Combined Fire Authority
+herefordshire,Herefordshire
+herefordshire_ua,Herefordshire
+hertfordshire,Hertfordshire
+hertfordshire_police,Hertfordshire Police
+hertfordshire_police_2000,Hertfordshire Police
+hertfordshire_police_and_crime_commissioner_and_chief_constable,Hertfordshire Police
+hertsmere,Hertsmere
+high_peak,High Peak
+hillingdon,Hillingdon
+hinckley_bosworth,Hinckley & Bosworth
+horsham,Horsham
+hounslow,Hounslow
+humberside_combined_fire_authority,Humberside Combined Fire Authority
+humberside_police_and_crime_commissioner_and_chief_constable,Humberside Police
+humberside_police_authority,Humberside Police
+huntingdonshire,Huntingdonshire
+hyndburn,Hyndburn
+intra_gla_transfers,Adjustment for intra GLA transfers
+ipswich,Ipswich
+isle_of_wight,Isle of Wight
+isle_of_wight_ua,Isle of Wight
+isles_of_scilly,Isles of Scilly
+islington,Islington
+kennet,Kennet
+kensington_chelsea,Kensington & Chelsea
+kent,Kent
+kent_combined_fire_authority,Kent Combined Fire Authority
+kent_police_and_crime_commissioner_and_chief_constable,Kent Police
+kent_police_authority,Kent Police
+kerrier,Kerrier
+kettering,Kettering
+kings_lynn_west_norfolk,King's Lynn & West Norfolk
+kingston_upon_hull,Kingston upon Hull
+kingston_upon_hull_ua,Kingston upon Hull
+kingston_upon_thames,Kingston upon Thames
+kirklees,Kirklees
+knowsley,Knowsley
+lake_district_national_park,Lake District National Park
+lambeth,Lambeth
+lancashire,Lancashire
+lancashire_combined_fire_authority,Lancashire Combined Fire Authority
+lancashire_police_and_crime_commissioner_and_chief_constable,Lancashire Police
+lancashire_police_authority,Lancashire Police
+lancaster,Lancaster
+lee_valley_park_authority,Lee Valley Regional Park Authority
+lee_valley_regional_park_authority,Lee Valley Regional Park Authority
+leeds,Leeds
+leicester,Leicester
+leicester_city_ua,Leicester
+leicestershire,Leicestershire
+leicestershire_combined_fire_authority,Leicestershire Combined Fire Authority
+leicestershire_police_and_crime_commissioner_and_chief_constable,Leicestershire Police
+leicestershire_police_authority,Leicestershire Police
+lewes,Lewes
+lewisham,Lewisham
+lichfield,Lichfield
+lincoln,Lincoln
+lincolnshire,Lincolnshire
+lincolnshire_police_and_crime_commissioner_and_chief_constable,Lincolnshire Police
+lincolnshire_police_authority,Lincolnshire Police
+liverpool,Liverpool
+liverpool_city_region_combined_authority,Liverpool City Region Combined Authority
+luton,Luton
+luton_ua,Luton
+macclesfield,Macclesfield
+maidstone,Maidstone
+maldon,Maldon
+malvern_hills,Malvern Hills
+manchester,Manchester
+mansfield,Mansfield
+medway_towns,Medway Towns
+medway_ua,Medway Towns
+melton,Melton
+mendip,Mendip
+merseyside_fire_cd_authority,Merseyside Fire & CD Authority
+merseyside_integrated_pss_authority,Merseyside Integrated Transport Authority
+merseyside_integrated_transport_authority,Merseyside Integrated Transport Authority
+merseyside_passenger_transport_authority,Merseyside Integrated Transport Authority
+merseyside_police_and_crime_commissioner_and_chief_constable,Merseyside Police
+merseyside_police_authority,Merseyside Police
+merseyside_probation_committee,Merseyside Probation Committee
+merseyside_recycling_and_waste_authority,Merseyside Recycling and Waste Authority
+merseyside_waste_disposal_authority,Merseyside Recycling and Waste Authority
+merton,Merton
+mid_bedfordshire,Mid Bedfordshire
+mid_devon,Mid Devon
+mid_suffolk,Mid Suffolk
+mid_sussex,Mid Sussex
+middlesbrough,Middlesbrough
+middlesbrough_ua,Middlesbrough
+middlesex_probation_committee,Middlesex Probation Committee
+milton_keynes,Milton Keynes
+milton_keynes_ua,Milton Keynes
+mole_valley,Mole Valley
+new_forest,New Forest
+new_forest_national_park,New Forest National Park
+new_forest_park,New Forest National Park
+newark_sherwood,Newark & Sherwood
+newcastle_under_lyme,Newcastle-under-Lyme
+newcastle_upon_tyne,Newcastle upon Tyne
+newham,Newham
+norfolk,Norfolk
+norfolk_police_and_crime_commissioner_and_chief_constable,Norfolk Police
+norfolk_police_authority,Norfolk Police
+north_cornwall,North Cornwall
+north_devon,North Devon
+north_dorset,North Dorset
+north_east_combined_authority,North East Combined Authority
+north_east_derbyshire,North East Derbyshire
+north_east_lincolnshire,North East Lincolnshire
+north_east_lincolnshire_ua,North East Lincolnshire
+north_east_london_probation_committee,North East London Probation Committee
+north_hertfordshire,North Hertfordshire
+north_kesteven,North Kesteven
+north_lincolnshire,North Lincolnshire
+north_lincolnshire_ua,North Lincolnshire
+north_london_waste_authority,North London Waste Authority
+north_norfolk,North Norfolk
+north_shropshire,North Shropshire
+north_somerset,North Somerset
+north_somerset_ua,North Somerset
+north_tyneside,North Tyneside
+north_warwickshire,North Warwickshire
+north_west_leicestershire,North West Leicestershire
+north_wiltshire,North Wiltshire
+north_york_moors_national_park_authority,North York Moors National Park Authority
+north_yorkshire,North Yorkshire
+north_yorkshire_combined_fire_authority,North Yorkshire Combined Fire Authority
+north_yorkshire_police_and_crime_commissioner_and_chief_constable,North Yorkshire Police
+north_yorkshire_police_authority,North Yorkshire Police
+northampton,Northampton
+northamptonshire,Northamptonshire
+northamptonshire_police_and_crime_commissioner_and_chief_constable,Northamptonshire Police
+northamptonshire_police_authority,Northamptonshire Police
+northumberland,Northumberland
+northumberland_national_park_authority,Northumberland National Park Authority
+northumberland_ua,Northumberland
+northumbria_police_and_crime_commissioner_and_chief_constable,Northumbria Police
+northumbria_police_authority,Northumbria Police
+northumbria_probation_committee,Northumbria Probation Committee
+norwich,Norwich
+nottingham,Nottingham
+nottingham_ua,Nottingham
+nottinghamshire,Nottinghamshire
+nottinghamshire_combined_fire_authority,Nottinghamshire Fire & Rescue Service
+nottinghamshire_fire_rescue_service,Nottinghamshire Fire & Rescue Service
+nottinghamshire_police_and_crime_commissioner_and_chief_constable,Nottinghamshire Police
+nottinghamshire_police_authority,Nottinghamshire Police
+nuneaton_bedworth,Nuneaton & Bedworth
+oadby_wigston,Oadby & Wigston
+oldham,Oldham
+oswestry,Oswestry
+oxford,Oxford
+oxfordshire,Oxfordshire
+peak_district_national_park_authority,Peak District National Park Authority
+peak_national_park,Peak District National Park Authority
+pendle,Pendle
+penwith,Penwith
+peterborough,Peterborough
+peterborough_ua,Peterborough
+plymouth,Plymouth
+plymouth_ua,Plymouth
+poole,Poole
+poole_ua,Poole
+portsmouth,Portsmouth
+portsmouth_ua,Portsmouth
+preston,Preston
+purbeck,Purbeck
+reading,Reading
+reading_ua,Reading
+redbridge,Redbridge
+redcar_and_cleveland_ua,Redcar & Cleveland
+redcar_cleveland,Redcar & Cleveland
+redditch,Redditch
+reigate_banstead,Reigate & Banstead
+residuary_receiver,Residuary Receiver
+restormel,Restormel
+ribble_valley,Ribble Valley
+richmond_upon_thames,Richmond upon Thames
+richmondshire,Richmondshire
+rochdale,Rochdale
+rochford,Rochford
+rossendale,Rossendale
+rother,Rother
+rotherham,Rotherham
+royal_berkshire_fire_authority,Royal Berkshire Fire Authority
+rugby,Rugby
+runnymede,Runnymede
+rushcliffe,Rushcliffe
+rushmoor,Rushmoor
+rutland,Rutland
+rutland_ua,Rutland
+ryedale,Ryedale
+salford,Salford
+salisbury,Salisbury
+sandwell,Sandwell
+scarborough,Scarborough
+sedgefield,Sedgefield
+sedgemoor,Sedgemoor
+sefton,Sefton
+selby,Selby
+sevenoaks,Sevenoaks
+sheffield,Sheffield
+sheffield_city_region_combined_authority,Sheffield City Region Combined Authority
+shepway,Shepway
+shrewsbury_atcham,Shrewsbury & Atcham
+shropshire,Shropshire
+shropshire_combined_fire_authority,Shropshire Combined Fire Authority
+shropshire_ua,Shropshire
+slough,Slough
+slough_ua,Slough
+solihull,Solihull
+somerset,Somerset
+south_bedfordshire,South Bedfordshire
+south_buckinghamshire,South Buckinghamshire
+south_bucks,South Buckinghamshire
+south_cambridgeshire,South Cambridgeshire
+south_derbyshire,South Derbyshire
+south_downs_national_park,South Downs National Park Authority
+south_downs_national_park_authority,South Downs National Park Authority
+south_east_london_probation_committee,South East London Probation Committee
+south_gloucestershire,South Gloucestershire
+south_gloucestershire_ua,South Gloucestershire
+south_hams,South Hams
+south_holland,South Holland
+south_kesteven,South Kesteven
+south_lakeland,South Lakeland
+south_norfolk,South Norfolk
+south_northamptonshire,South Northamptonshire
+south_oxfordshire,South Oxfordshire
+south_ribble,South Ribble
+south_shropshire,South Shropshire
+south_somerset,South Somerset
+south_staffordshire,South Staffordshire
+south_tyneside,South Tyneside
+south_west_london_probation_committee,South West London Probation Committee
+south_yorkshire_fire_cd_authority,South Yorkshire Fire & CD Authority
+south_yorkshire_integrated_pss_authority,South Yorkshire Integrated Transport Authority
+south_yorkshire_integrated_transport_authority,South Yorkshire Integrated Transport Authority
+south_yorkshire_passenger_transport_authority,South Yorkshire Integrated Transport Authority
+south_yorkshire_police_and_crime_commissioner_and_chief_constable,South Yorkshire Police
+south_yorkshire_police_authority,South Yorkshire Police
+south_yorkshire_probation_committee,South Yorkshire Probation Committee
+southampton,Southampton
+southampton_ua,Southampton
+southend_on_sea,Southend-on-Sea
+southend_on_sea_ua,Southend-on-Sea
+southwark,Southwark
+spelthorne,Spelthorne
+st_albans,St Albans
+st_edmundsbury,St Edmundsbury
+st_helens,St Helens
+stafford,Stafford
+staffordshire,Staffordshire
+staffordshire_combined_fire_authority,Staffordshire Combined Fire Authority
+staffordshire_moorlands,Staffordshire Moorlands
+staffordshire_police_and_crime_commissioner_and_chief_constable,Staffordshire Police
+staffordshire_police_authority,Staffordshire Police
+stevenage,Stevenage
+stockport,Stockport
+stockton_on_tees,Stockton-on-Tees
+stockton_on_tees_ua,Stockton-on-Tees
+stoke_on_trent,Stoke-on-Trent
+stoke_on_trent_ua,Stoke-on-Trent
+stratford_on_avon,Stratford-on-Avon
+stroud,Stroud
+suffolk,Suffolk
+suffolk_coastal,Suffolk Coastal
+suffolk_police_and_crime_commissioner_and_chief_constable,Suffolk Police
+suffolk_police_authority,Suffolk Police
+sunderland,Sunderland
+surrey,Surrey
+surrey_heath,Surrey Heath
+surrey_police,Surrey Police
+surrey_police_2000,Surrey Police
+surrey_police_and_crime_commissioner_and_chief_constable,Surrey Police
+sussex_police_and_crime_commissioner_and_chief_constable,Sussex Police
+sussex_police_authority,Sussex Police
+sutton,Sutton
+swale,Swale
+swindon,Swindon
+swindon_ua,Swindon
+tameside,Tameside
+tamworth,Tamworth
+tandridge,Tandridge
+taunton_deane,Taunton Deane
+tees_valley_combined_authority,Tees Valley Combined Authority
+teesdale,Teesdale
+teignbridge,Teignbridge
+telford_and_wrekin_ua,Telford & Wrekin
+telford_wrekin,Telford & Wrekin
+tendring,Tendring
+test_valley,Test Valley
+tewkesbury,Tewkesbury
+thames_valley_police_and_crime_commissioner_and_chief_constable,Thames Valley Police
+thames_valley_police_authority,Thames Valley Police
+thanet,Thanet
+the_barnsley_doncaster_rotherham_and_sheffield_combined_authority,Sheffield City Region Combined Authority
+the_broads_authority,Broads Authority
+the_durham_gateshead_newcastle_north_tyneside_northumberland_combined_authority,North East Combined Authority
+the_durham_gateshead_newcastle_north_tyneside_northumberland_south_tyneside_and_sunderland_combined_authority,North East Combined Authority
+the_halton_knowsley_liverpool_st_helens_sefton_and_wirral_combined_authority,Liverpool City Region Combined Authority
+the_west_yorkshire_combined_authority,West Yorkshire Combined Authority
+three_rivers,Three Rivers
+thurrock,Thurrock
+thurrock_ua,Thurrock
+tonbridge_malling,Tonbridge & Malling
+torbay,Torbay
+torbay_ua,Torbay
+torridge,Torridge
+tower_hamlets,Tower Hamlets
+trafford,Trafford
+tunbridge_wells,Tunbridge Wells
+tyne_and_wear_fire_and_rescue_authority,Tyne and Wear Fire
+tyne_and_wear_fire_cd_authority,Tyne and Wear Fire
+tyne_and_wear_integrated_pss_authority,Tyne and Wear Integrated Transport Authority
+tyne_and_wear_integrated_transport_authority,Tyne and Wear Integrated Transport Authority
+tyne_and_wear_passenger_transport_authority,Tyne and Wear Integrated Transport Authority
+tynedale,Tynedale
+uttlesford,Uttlesford
+vale_of_white_horse,Vale of White Horse
+vale_royal,Vale Royal
+wakefield,Wakefield
+walsall,Walsall
+waltham_forest,Waltham Forest
+wandsworth,Wandsworth
+wansbeck,Wansbeck
+warrington,Warrington
+warrington_ua,Warrington
+warwick,Warwick
+warwickshire,Warwickshire
+warwickshire_police_and_crime_commissioner_and_chief_constable,Warwickshire Police
+warwickshire_police_authority,Warwickshire Police
+watford,Watford
+waveney,Waveney
+waverley,Waverley
+wealden,Wealden
+wear_valley,Wear Valley
+wellingborough,Wellingborough
+welwyn_hatfield,Welwyn Hatfield
+west_berkshire,West Berkshire
+west_berkshire_ua,West Berkshire
+west_devon,West Devon
+west_dorset,West Dorset
+west_lancashire,West Lancashire
+west_lindsey,West Lindsey
+west_london_waste_authority,West London Waste Authority
+west_mercia_police_and_crime_commissioner_and_chief_constable,West Mercia Police
+west_mercia_police_authority,West Mercia Police
+west_midlands_combined_authority,West Midlands Combined Authority
+west_midlands_fire_and_rescue_authority,West Midlands Fire and Rescue Authority
+west_midlands_fire_cd_authority,West Midlands Fire and Rescue Authority
+west_midlands_integrated_pss_authority,West Midlands Integrated Transport Authority
+west_midlands_integrated_transport_authority,West Midlands Integrated Transport Authority
+west_midlands_passenger_transport_authority,West Midlands Integrated Transport Authority
+west_midlands_police_and_crime_commissioner_and_chief_constable,West Midlands Police
+west_midlands_police_authority,West Midlands Police
+west_midlands_probation_committee,West Midlands Probation Committee
+west_of_england_combined_authority,West of England Combined Authority
+west_oxfordshire,West Oxfordshire
+west_somerset,West Somerset
+west_sussex,West Sussex
+west_wiltshire,West Wiltshire
+west_yorkshire_combined_authority,West Yorkshire Combined Authority
+west_yorkshire_fire_cd_authority,West Yorkshire Fire & CD Authority
+west_yorkshire_integrated_pss_authority,West Yorkshire Integrated Transport Authority
+west_yorkshire_integrated_transport_authority,West Yorkshire Integrated Transport Authority
+west_yorkshire_passenger_transport_authority,West Yorkshire Integrated Transport Authority
+west_yorkshire_police_and_crime_commissioner_and_chief_constable,West Yorkshire Police
+west_yorkshire_police_authority,West Yorkshire Police
+west_yorkshire_probation_committee,West Yorkshire Probation Committee
+western_riverside_waste_authority,Western Riverside Waste Authority
+westminster,Westminster
+weymouth_portland,Weymouth & Portland
+wigan,Wigan
+wiltshire,Wiltshire
+wiltshire_police_and_crime_commissioner_and_chief_constable,Wiltshire Police
+wiltshire_police_authority,Wiltshire Police
+wiltshire_swindon_fire_authority,Wiltshire Combined Fire Authority
+wiltshire_ua,Wiltshire
+winchester,Winchester
+windsor_maidenhead,Windsor & Maidenhead
+windsor_maidenhead_ua,Windsor & Maidenhead
+wirral,Wirral
+woking,Woking
+wokingham,Wokingham
+wokingham_ua,Wokingham
+wolverhampton,Wolverhampton
+worcester,Worcester
+worcestershire,Worcestershire
+worthing,Worthing
+wychavon,Wychavon
+wycombe,Wycombe
+wyre,Wyre
+wyre_forest,Wyre Forest
+york,York
+york_ua,York
+yorkshire_dales_national_park_authority,Yorkshire Dales National Park Authority
