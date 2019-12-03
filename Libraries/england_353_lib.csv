@@ -1,0 +1,516 @@
+continuity_LA_name,Class of authority
+Adjustment for intra GLA transfers,Adjustment
+GLA adjustment,Adjustment
+Grossing adjustment,Adjustment
+Summing adjustment,Adjustment
+England_best,Aggregate
+Greater London Authority,GLA
+London Legacy Development Corporation,GLA
+MOPAC,GLA
+Transport for London,GLA
+Camden,ILB
+Greenwich,ILB
+Hackney,ILB
+Hammersmith & Fulham,ILB
+Islington,ILB
+Kensington & Chelsea,ILB
+Lambeth,ILB
+Lewisham,ILB
+Southwark,ILB
+Tower Hamlets,ILB
+Wandsworth,ILB
+Westminster,ILB
+Barnsley,MD
+Birmingham,MD
+Bolton,MD
+Bradford,MD
+Bury,MD
+Calderdale,MD
+Coventry,MD
+Doncaster,MD
+Dudley,MD
+Gateshead,MD
+Kirklees,MD
+Knowsley,MD
+Leeds,MD
+Liverpool,MD
+Manchester,MD
+Newcastle upon Tyne,MD
+North Tyneside,MD
+Oldham,MD
+Rochdale,MD
+Rotherham,MD
+Salford,MD
+Sandwell,MD
+Sefton,MD
+Sheffield,MD
+Solihull,MD
+South Tyneside,MD
+St Helens,MD
+Stockport,MD
+Sunderland,MD
+Tameside,MD
+Trafford,MD
+Wakefield,MD
+Walsall,MD
+Wigan,MD
+Wirral,MD
+Wolverhampton,MD
+Dorset Combined Fire Authority,OTHER
+Greater Manchester Fire & CD Authority,OTHER
+Northumberland National Park Authority,OTHER
+Barking & Dagenham,OLB
+Barnet,OLB
+Bexley,OLB
+Brent,OLB
+Bromley,OLB
+Croydon,OLB
+Ealing,OLB
+Enfield,OLB
+Haringey,OLB
+Harrow,OLB
+Havering,OLB
+Hillingdon,OLB
+Hounslow,OLB
+Kingston upon Thames,OLB
+Merton,OLB
+Newham,OLB
+Redbridge,OLB
+Richmond upon Thames,OLB
+Sutton,OLB
+Waltham Forest,OLB
+Avon & Somerset Police,OTHER
+Bedfordshire Combined Fire Authority,OTHER
+Bedfordshire Police,OTHER
+Berkshire Fire Authority,OTHER
+Broads Authority,OTHER
+Buckinghamshire & Milton Keynes Combined Fire Authority,OTHER
+Cambridgeshire and Peterborough Combined Authority,OTHER
+Cambridgeshire Combined Fire Authority,OTHER
+Cambridgeshire Police,OTHER
+Cheshire Combined Fire Authority,OTHER
+Cheshire Police,OTHER
+City of London,OTHER
+Cleveland Combined Fire Authority,OTHER
+Cleveland Police,OTHER
+Cumbria Police,OTHER
+Dartmoor National Park Authority,OTHER
+Derbyshire Combined Fire Authority,OTHER
+Derbyshire Police,OTHER
+Devon & Cornwall Police,OTHER
+Devon & Somerset Combined Fire Authority,OTHER
+Dorset and Wiltshire Combined Fire Authority,OTHER
+Dorset Police,OTHER
+Durham Combined Fire Authority,OTHER
+Durham Police,OTHER
+East London Waste Authority,OTHER
+East Sussex Combined Fire Authority,OTHER
+Essex Fire,OTHER
+Essex Police,OTHER
+Exmoor National Park Authority,OTHER
+Gloucestershire Police,OTHER
+Greater London Magistrates Court Authority,OTHER
+Greater Manchester Combined Authority,OTHER
+Greater Manchester Integrated Transport Authority,OTHER
+Greater Manchester Police,OTHER
+Greater Manchester Probation Committee,OTHER
+Greater Manchester Waste Disposal Authority,OTHER
+Hampshire Combined Fire and Rescue Authority,OTHER
+Hampshire Police,OTHER
+Hereford & Worcester Combined Fire Authority,OTHER
+Hertfordshire Police,OTHER
+Humberside Combined Fire Authority,OTHER
+Humberside Police,OTHER
+Kent Combined Fire Authority,OTHER
+Kent Police,OTHER
+Lake District National Park,OTHER
+Lancashire Combined Fire Authority,OTHER
+Lancashire Police,OTHER
+Lee Valley Regional Park Authority,OTHER
+Leicestershire Combined Fire Authority,OTHER
+Leicestershire Police,OTHER
+Lincolnshire Police,OTHER
+Liverpool City Region Combined Authority,OTHER
+London Fire,OTHER
+Merseyside Fire & CD Authority,OTHER
+Merseyside Integrated Transport Authority,OTHER
+Merseyside Police,OTHER
+Merseyside Probation Committee,OTHER
+Merseyside Recycling and Waste Authority,OTHER
+Middlesex Probation Committee,OTHER
+New Forest National Park,OTHER
+Norfolk Police,OTHER
+North East Combined Authority,OTHER
+North East London Probation Committee,OTHER
+North London Waste Authority,OTHER
+North York Moors National Park Authority,OTHER
+North Yorkshire Combined Fire Authority,OTHER
+North Yorkshire Police,OTHER
+Northamptonshire Police,OTHER
+Northumbria Police,OTHER
+Northumbria Probation Committee,OTHER
+Nottinghamshire Fire & Rescue Service,OTHER
+Nottinghamshire Police,OTHER
+Peak District National Park Authority,OTHER
+Residuary Receiver,OTHER
+Royal Berkshire Fire Authority,OTHER
+Sheffield City Region Combined Authority,OTHER
+Shropshire Combined Fire Authority,OTHER
+South Downs National Park Authority,OTHER
+South East London Probation Committee,OTHER
+South West London Probation Committee,OTHER
+South Yorkshire Fire & CD Authority,OTHER
+South Yorkshire Integrated Transport Authority,OTHER
+South Yorkshire Police,OTHER
+South Yorkshire Probation Committee,OTHER
+Staffordshire Combined Fire Authority,OTHER
+Staffordshire Police,OTHER
+Suffolk Police,OTHER
+Surrey Police,OTHER
+Sussex Police,OTHER
+Tees Valley Combined Authority,OTHER
+Thames Valley Police,OTHER
+Tyne and Wear Fire,OTHER
+Tyne and Wear Integrated Transport Authority,OTHER
+Warwickshire Police,OTHER
+West London Waste Authority,OTHER
+West Mercia Police,OTHER
+West Midlands Combined Authority,OTHER
+West Midlands Fire and Rescue Authority,OTHER
+West Midlands Integrated Transport Authority,OTHER
+West Midlands Police,OTHER
+West Midlands Probation Committee,OTHER
+West of England Combined Authority,OTHER
+West Yorkshire Combined Authority,OTHER
+West Yorkshire Fire & CD Authority,OTHER
+West Yorkshire Integrated Transport Authority,OTHER
+West Yorkshire Police,OTHER
+West Yorkshire Probation Committee,OTHER
+Western Riverside Waste Authority,OTHER
+Wiltshire Combined Fire Authority,OTHER
+Wiltshire Police,OTHER
+Yorkshire Dales National Park Authority,OTHER
+Bedfordshire,SC
+Buckinghamshire,SC
+Cambridgeshire,SC
+Cheshire,SC
+Cumbria,SC
+Derbyshire,SC
+Devon,SC
+Dorset,SC
+East Sussex,SC
+Essex,SC
+Gloucestershire,SC
+Hampshire,SC
+Hertfordshire,SC
+Kent,SC
+Lancashire,SC
+Leicestershire,SC
+Lincolnshire,SC
+Norfolk,SC
+North Yorkshire,SC
+Northamptonshire,SC
+Nottinghamshire,SC
+Oxfordshire,SC
+Somerset,SC
+Staffordshire,SC
+Suffolk,SC
+Surrey,SC
+Warwickshire,SC
+West Sussex,SC
+Worcestershire,SC
+Adur,SD
+Allerdale,SD
+Alnwick,SD
+Amber Valley,SD
+Arun,SD
+Ashfield,SD
+Ashford,SD
+Aylesbury Vale,SD
+Babergh,SD
+Barrow-in-Furness,SD
+Basildon,SD
+Basingstoke & Deane,SD
+Bassetlaw,SD
+Berwick-upon-Tweed,SD
+Blaby,SD
+Blyth Valley,SD
+Bolsover,SD
+Boston,SD
+Braintree,SD
+Breckland,SD
+Brentwood,SD
+Bridgnorth,SD
+Broadland,SD
+Bromsgrove,SD
+Broxbourne,SD
+Broxtowe,SD
+Burnley,SD
+Cambridge,SD
+Cannock Chase,SD
+Canterbury,SD
+Caradon,SD
+Carlisle,SD
+Carrick,SD
+Castle Morpeth,SD
+Castle Point,SD
+Charnwood,SD
+Chelmsford,SD
+Cheltenham,SD
+Cherwell,SD
+Chester,SD
+Chester-le-Street,SD
+Chesterfield,SD
+Chichester,SD
+Chiltern,SD
+Chorley,SD
+Christchurch,SD
+Colchester,SD
+Congleton,SD
+Copeland,SD
+Corby,SD
+Cotswold,SD
+Craven,SD
+Crawley,SD
+Crewe & Nantwich,SD
+Dacorum,SD
+Dartford,SD
+Daventry,SD
+Derbyshire Dales,SD
+Derwentside,SD
+Dover,SD
+Durham City,SD
+Easington,SD
+East Cambridgeshire,SD
+East Devon,SD
+East Dorset,SD
+East Hampshire,SD
+East Hertfordshire,SD
+East Lindsey,SD
+East Northamptonshire,SD
+East Staffordshire,SD
+Eastbourne,SD
+Eastleigh,SD
+Eden,SD
+Ellesmere Port & Neston,SD
+Elmbridge,SD
+Epping Forest,SD
+Epsom & Ewell,SD
+Erewash,SD
+Exeter,SD
+Fareham,SD
+Fenland,SD
+Folkestone & Hythe,SD
+Forest Heath,SD
+Forest of Dean,SD
+Fylde,SD
+Gedling,SD
+Gloucester,SD
+Gosport,SD
+Gravesham,SD
+Great Yarmouth,SD
+Guildford,SD
+Hambleton,SD
+Harborough,SD
+Harlow,SD
+Harrogate,SD
+Hart,SD
+Hastings,SD
+Havant,SD
+Hertsmere,SD
+High Peak,SD
+Hinckley & Bosworth,SD
+Horsham,SD
+Huntingdonshire,SD
+Hyndburn,SD
+Ipswich,SD
+Kennet,SD
+Kerrier,SD
+Kettering,SD
+King's Lynn & West Norfolk,SD
+Lancaster,SD
+Lewes,SD
+Lichfield,SD
+Lincoln,SD
+Macclesfield,SD
+Maidstone,SD
+Maldon,SD
+Malvern Hills,SD
+Mansfield,SD
+Melton,SD
+Mendip,SD
+Mid Bedfordshire,SD
+Mid Devon,SD
+Mid Suffolk,SD
+Mid Sussex,SD
+Mole Valley,SD
+New Forest,SD
+Newark & Sherwood,SD
+Newcastle-under-Lyme,SD
+North Cornwall,SD
+North Devon,SD
+North Dorset,SD
+North East Derbyshire,SD
+North Hertfordshire,SD
+North Kesteven,SD
+North Norfolk,SD
+North Shropshire,SD
+North Warwickshire,SD
+North West Leicestershire,SD
+North Wiltshire,SD
+Northampton,SD
+Norwich,SD
+Nuneaton & Bedworth,SD
+Oadby & Wigston,SD
+Oswestry,SD
+Oxford,SD
+Pendle,SD
+Penwith,SD
+Preston,SD
+Purbeck,SD
+Redditch,SD
+Reigate & Banstead,SD
+Restormel,SD
+Ribble Valley,SD
+Richmondshire,SD
+Rochford,SD
+Rossendale,SD
+Rother,SD
+Rugby,SD
+Runnymede,SD
+Rushcliffe,SD
+Rushmoor,SD
+Ryedale,SD
+Salisbury,SD
+Scarborough,SD
+Sedgefield,SD
+Sedgemoor,SD
+Selby,SD
+Sevenoaks,SD
+Shepway,SD
+Shrewsbury & Atcham,SD
+South Bedfordshire,SD
+South Buckinghamshire,SD
+South Cambridgeshire,SD
+South Derbyshire,SD
+South Hams,SD
+South Holland,SD
+South Kesteven,SD
+South Lakeland,SD
+South Norfolk,SD
+South Northamptonshire,SD
+South Oxfordshire,SD
+South Ribble,SD
+South Shropshire,SD
+South Somerset,SD
+South Staffordshire,SD
+Spelthorne,SD
+St Albans,SD
+St Edmundsbury,SD
+Stafford,SD
+Staffordshire Moorlands,SD
+Stevenage,SD
+Stratford-on-Avon,SD
+Stroud,SD
+Suffolk Coastal,SD
+Surrey Heath,SD
+Swale,SD
+Tamworth,SD
+Tandridge,SD
+Taunton Deane,SD
+Teesdale,SD
+Teignbridge,SD
+Tendring,SD
+Test Valley,SD
+Tewkesbury,SD
+Thanet,SD
+Three Rivers,SD
+Tonbridge & Malling,SD
+Torridge,SD
+Tunbridge Wells,SD
+Tynedale,SD
+Uttlesford,SD
+Vale of White Horse,SD
+Vale Royal,SD
+Wansbeck,SD
+Warwick,SD
+Watford,SD
+Waveney,SD
+Waverley,SD
+Wealden,SD
+Wear Valley,SD
+Wellingborough,SD
+Welwyn Hatfield,SD
+West Devon,SD
+West Dorset,SD
+West Lancashire,SD
+West Lindsey,SD
+West Oxfordshire,SD
+West Somerset,SD
+West Wiltshire,SD
+Weymouth & Portland,SD
+Winchester,SD
+Woking,SD
+Worcester,SD
+Worthing,SD
+Wychavon,SD
+Wycombe,SD
+Wyre,SD
+Wyre Forest,SD
+Avon Combined Fire and Rescue Authority,OTHER
+Bath & North East Somerset,UNIT
+Bedford,UNIT
+Blackburn with Darwen,UNIT
+Blackpool,UNIT
+Bournemouth,UNIT
+Bracknell Forest,UNIT
+Brighton & Hove,UNIT
+Bristol,UNIT
+Central Bedfordshire,UNIT
+Cheshire East,UNIT
+Cheshire West & Chester,UNIT
+Cornwall,UNIT
+Darlington,UNIT
+Derby,UNIT
+Durham,UNIT
+East Riding of Yorkshire,UNIT
+Halton,UNIT
+Hartlepool,UNIT
+Herefordshire,UNIT
+Isle of Wight,UNIT
+Isles of Scilly,UNIT
+Kingston upon Hull,UNIT
+Leicester,UNIT
+Luton,UNIT
+Medway Towns,UNIT
+Middlesbrough,UNIT
+Milton Keynes,UNIT
+North East Lincolnshire,UNIT
+North Lincolnshire,UNIT
+North Somerset,UNIT
+Northumberland,UNIT
+Nottingham,UNIT
+Peterborough,UNIT
+Plymouth,UNIT
+Poole,UNIT
+Portsmouth,UNIT
+Reading,UNIT
+Redcar & Cleveland,UNIT
+Rutland,UNIT
+Shropshire,UNIT
+Slough,UNIT
+South Gloucestershire,UNIT
+Southampton,UNIT
+Southend-on-Sea,UNIT
+Stockton-on-Tees,UNIT
+Stoke-on-Trent,UNIT
+Swindon,UNIT
+Telford & Wrekin,UNIT
+Thurrock,UNIT
+Torbay,UNIT
+Warrington,UNIT
+West Berkshire,UNIT
+Wiltshire,UNIT
+Windsor & Maidenhead,UNIT
+Wokingham,UNIT
+York,UNIT

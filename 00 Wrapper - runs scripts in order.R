@@ -29,5 +29,8 @@ source("01 Capital outturn financing and pru_stack.R")
 setwd(project_folder)
 source("02 Capital outturn financing and pru_standardise.R")
 
+setwd(project_folder)
+source("03 Capital outturn financing and pru_aggs.R")
+
 
 Sys.time() - t_0
