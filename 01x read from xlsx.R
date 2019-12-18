@@ -103,7 +103,7 @@ fin <- bind_rows(fin_1819, fin_1718, fin_1617, fin_1516, fin_1415, fin_1314, fin
 				 tab = as.factor(tab),
 				 published = as.factor(published)) %>%
 	filter(!is.na(value))
-
+				 
 rm(fin_1819, fin_1718, fin_1617, fin_1516, fin_1415, fin_1314, fin_1213, fin_1112, fin_1011, fin_0910, fin_0809, fin_0708, fin_0607, fin_0506, fin_0405, fin_0304, fin_0203, fin_0102, fin_0001)
 rm(tabs_1819, tabs_1718, tabs_1617, tabs_1516, tabs_1415, tabs_1314, tabs_1213, tabs_1112, tabs_1011, tabs_0910, tabs_0809, tabs_0708, tabs_0607, tabs_0506, tabs_0405, tabs_0304, tabs_0203, tabs_0102, tabs_0001)
 
