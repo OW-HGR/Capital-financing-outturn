@@ -5,7 +5,7 @@ library("fs")			# cross-platform, uniform interface to file system operations
 
 # -------------------------------------------------------------------------------- load data
 # original file names have been preserved other than where they are missing a date, in which case it is added at the end
-setwd(paste(project_folder, "Source data - not tracked/xlsx", sep = ""))
+setwd(paste(project_folder, "Source data", sep = ""))
 
 COR_1819 <- "COR_2018-19_outputs_COR_B.xlsx"
 COR_1718 <- "FINAL_COR_B 1718.xlsx" 
@@ -88,7 +88,7 @@ fin_0001 <- read(COR_0001, 4, 1, -2) %>% gather(var, value, 5:57) %>% mutate(Yea
 fin_1819 <- fin_1819 %>% filter(class != "GLA")
 fin_1718 <- fin_1718 %>% filter(class != "GLAG")
 
-fin <- bind_rows(fin_1819, fin_1718, fin_1617, fin_1516, fin_1415, fin_1314, fin_1213, fin_1112, fin_1011, fin_0910, fin_0809, fin_0708, fin_0607, fin_0506, fin_0405, fin_0304, fin_0203, fin_0102, fin_0001) %>% 
+financing_pru <- bind_rows(fin_1819, fin_1718, fin_1617, fin_1516, fin_1415, fin_1314, fin_1213, fin_1112, fin_1011, fin_0910, fin_0809, fin_0708, fin_0607, fin_0506, fin_0405, fin_0304, fin_0203, fin_0102, fin_0001) %>% 
 	select(-c(lgf_code, ons_code, ecode, class, subclass, region, na, na_3, na_4)) %>%
 	rename(source_publication = source,
 				 original_LA_name = la_name,
@@ -107,7 +107,7 @@ fin <- bind_rows(fin_1819, fin_1718, fin_1617, fin_1516, fin_1415, fin_1314, fin
 rm(fin_1819, fin_1718, fin_1617, fin_1516, fin_1415, fin_1314, fin_1213, fin_1112, fin_1011, fin_0910, fin_0809, fin_0708, fin_0607, fin_0506, fin_0405, fin_0304, fin_0203, fin_0102, fin_0001)
 rm(tabs_1819, tabs_1718, tabs_1617, tabs_1516, tabs_1415, tabs_1314, tabs_1213, tabs_1112, tabs_1011, tabs_0910, tabs_0809, tabs_0708, tabs_0607, tabs_0506, tabs_0405, tabs_0304, tabs_0203, tabs_0102, tabs_0001)
 
-fin_wide <- fin %>% select(-c(source_publication, tab, published)) %>% spread(Year, value)
+financing_pru_wide <- financing_pru %>% select(-c(source_publication, tab, published)) %>% spread(Year, value)
 
 # write out
 setwd(paste(project_folder, "Intermediate outputs", sep = ""))

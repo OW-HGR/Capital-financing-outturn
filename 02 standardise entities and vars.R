@@ -3,12 +3,12 @@ setwd(paste(project_folder, "Intermediate outputs", sep = ""))
 
 ifelse(write_out_y_n == "y", financing_pru <- read.csv("01 Capital outturn financing and pru_stack.csv"), "")
 
-financing_pru <- fin %>% filter(!Year %in% c("2000-01", "2001-02", "2002-03", "2003-04")) # categories are very different before 2004-05 - maybe come back to this one
+financing_pru <- financing_pru %>% filter(!Year %in% c("2000-01", "2001-02", "2002-03", "2003-04")) # categories are very different before 2004-05 - maybe come back to this one
 
 # -------------------------------------------------------------------------------- Standardise vars
 setwd(paste(project_folder, "Libraries", sep = ""))
 
-fin_pru_lib <- read.csv("financing_pru_var_lib v3.csv") %>%
+fin_pru_lib <- read.csv("financing_pru_var_lib.csv") %>%
 	select(-year_last_seen) %>% unique()
 
 financing_pru <- left_join(financing_pru, fin_pru_lib)
