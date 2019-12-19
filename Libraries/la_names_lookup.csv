@@ -368,6 +368,8 @@ England,England
 england,England
 England (adjusted),England (grossed)
 England (excluding double counting**),"England (grossed, with GLA adjustment)"
+England (grossed* excluding double counting**),"England (grossed, with GLA adjustment)"
+England (grossed*),England (grossed)
 england_adjusted,England (grossed)
 england_excluding_double_counting,"England (grossed, with GLA adjustment)"
 england_grossed,England (grossed)

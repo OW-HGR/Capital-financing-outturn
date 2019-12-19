@@ -2,12 +2,20 @@ original_variable,year_last_seen,continuity_variable,cat_1,cat_2,Notes
 adjustments_for_land_and_capital_receipts_crossing_hra_boundary,2016-17,Adjustments for land and capital receipts crossing HRA boundary,CFR,Prudential,
 authorised_limit_for_external_debt_at_1_april,2016-17,Authorised limit at 1 April,Prudential,Prudential,
 authorised_limit_for_external_debt_at_1_april_2004,2004-05,Authorised limit at 1 April,Prudential,Prudential,
+authorised_limit_for_gross_external_debt_at_1_april_2017,2017-18,Authorised limit at 1 April,Prudential,Prudential,
+authorised_limit_for_gross_external_debt_at_1_april_2018,2018-19,Authorised limit at 1 April,Prudential,Prudential,
 authorised_limit_for_external_debt_at_31_march,2016-17,Authorised limit at 31 March,Prudential,Prudential,
 authorised_limit_for_external_debt_at_31_march_2005,2004-05,Authorised limit at 31 March,Prudential,Prudential,
+authorised_limit_for_gross_external_debt_at_31_march_2018,2017-18,Authorised limit at 31 March,Prudential,Prudential,
+authorised_limit_for_gross_external_debt_at_31_march_2019,2018-19,Authorised limit at 31 March,Prudential,Prudential,
 gross_borrowing_as_at_1_april,2016-17,Borrowing at 1 April,Financial assets and liabilities,Prudential,
 gross_borrowing_as_at_1_april_2004,2004-05,Borrowing at 1 April,Financial assets and liabilities,Prudential,
+gross_borrowing_as_at_1_april_2017,2017-18,Borrowing at 1 April,Financial assets and liabilities,Prudential,
+gross_borrowing_as_at_1_april_2018,2018-19,Borrowing at 1 April,Financial assets and liabilities,Prudential,
 gross_borrowing_as_at_31_march,2016-17,Borrowing at 31 March,Financial assets and liabilities,Prudential,
 gross_borrowing_as_at_31_march_2005,2004-05,Borrowing at 31 March,Financial assets and liabilities,Prudential,
+gross_borrowing_as_at_31_march_2018,2017-18,Borrowing at 31 March,Financial assets and liabilities,Prudential,
+gross_borrowing_as_at_31_march_2019,2018-19,Borrowing at 31 March,Financial assets and liabilities,Prudential,
 m8_capital_expenditure_financed_by_the_community_infrastructure_levy_cil,2016-17,Capex financed by CIL,memo,memo,
 total_capital_receipts_used_to_finance_capital_expenditure,2018-19,Capital receipts used to finance capital expenditure,Receipts,Financing,
 use_of_capital_receipts,2016-17,Capital receipts used to finance capital expenditure,Receipts,Financing,
@@ -30,16 +38,25 @@ m6_section_16_2_b_total_m1_to_m5,2007-08,Capitalisation: total,memo,memo,Sum of 
 additional_contribution_from_revenue,2016-17,CERA,CFR,Prudential,
 capital_financing_requirement_as_at_1_april,2016-17,CFR at 1 April,CFR,Prudential,
 capital_financing_requirement_as_at_1_april_2004,2004-05,CFR at 1 April,CFR,Prudential,
+capital_financing_requirement_as_at_1_april_2017,2017-18,CFR at 1 April,CFR,Prudential,
+capital_financing_requirement_as_at_1_april_2018,2018-19,CFR at 1 April,CFR,Prudential,
 capital_financing_requirement_as_at_31_march,2005-06,CFR at 31 March,CFR,Prudential,Sum of CFR lines
 capital_financing_requirement_as_at_31_march_2005,2004-05,CFR at 31 March,CFR,Prudential,Sum of CFR lines
+capital_financing_requirement_as_at_31_march_2018,2017-18,CFR at 31 March,CFR,Prudential,Sum of CFR lines
+capital_financing_requirement_as_at_31_march_2019,2018-19,CFR at 31 March,CFR,Prudential,Sum of CFR lines
 capital_financing_requirement_as_at_31_march_line_30_plus_line_36,2016-17,CFR at 31 March,CFR,Prudential,Sum of CFR lines
-change_in_capital_financing_requirement,2016-17,Change in CFR,CFR,Prudential,
-change_in_capital_financing_requirement_line_31_less_lines_32_to_35,2014-15,Change in CFR,CFR,Prudential,
-change_in_capital_financing_requirement_line_31_less_lines_32_to_35,2013-14,Change in CFR,CFR,Prudential,
+change_in_capital_financing_requirement,2016-17,drop,drop,drop,Calculation
+change_in_capital_financing_requirement_line_31_less_lines_32_to_35,2013-14,drop,drop,drop,Calculation
+change_in_capital_financing_requirement_line_31_less_lines_32_to_35,2014-15,drop,drop,drop,Calculation
 capital_grants_and_contributions_from_private_developers,2004-05,Developer contributions,Developer contributions,Financing,
 grants_and_contributions_from_private_developers_and_from_leaseholders_etc,2016-17,Developer contributions,Developer contributions,Financing,
 grants_contributions_from_private_developers,2005-06,Developer contributions,Developer contributions,Financing,
 grants_from_private_developers_leaseholders_etc,2018-19,Developer contributions,Developer contributions,Financing,
+change_in_gross_external_debt,2018-19,drop,drop,drop,Calculation
+change_in_net_external_debt,2018-19,drop,drop,drop,Calculation
+change_in_gross_borrowing,2018-19,drop,drop,drop,Calculation
+change_in_investments,2018-19,drop,drop,drop,Calculation
+change_in_other_long_term_liabilities,2018-19,drop,drop,drop,Calculation
 m10_grants_loans_financial_assistance_repayments_grants,2013-14,drop,drop,drop,Reprinting values from the spending tables
 m10_loans_and_financial_assistance,2005-06,drop,drop,drop,Reprinting values from the spending tables
 m10_repayments_loans_financial_assistance,2004-05,drop,drop,drop,Reprinting values from the spending tables
@@ -68,8 +85,15 @@ m9_grants,2005-06,drop,drop,drop,Reprinting values from the spending tables
 m9_repayments_grants,2004-05,drop,drop,drop,Reprinting values from the spending tables
 m9_sales_of_tangible_fixed_assets_plant_machinery_equipment,2007-08,drop,drop,drop,Reprinting values from the spending tables
 m9_sales_of_tangible_fixed_assets_total_m7_to_m9,2013-14,drop,drop,drop,Reprinting values from the spending tables
+net_external_debt_as_at_1_april_2017,2017-18,drop,drop,drop,Calculation
+net_external_debt_as_at_1_april_2018,2018-19,drop,drop,drop,Calculation
+net_external_debt_as_at_31_march_2018,2017-18,drop,drop,drop,Calculation
+net_external_debt_as_at_31_march_2019,2018-19,drop,drop,drop,Calculation
+total_contribution_from_revenue_mrr_or_use_of_receipts_to_repay_credit_liabilities,2018-19,drop,drop,drop,Calculation
 x2003_04_expenditure_accrued_in_2003_04_but_paid_for_in_04_05,2004-05,drop,drop,drop,One-off
 x2003_04_income_accrued_in_03_04_but_received_in_04_05,2004-05,drop,drop,drop,One-off
+total_revenue_account_resources_used_to_finance_capital_expenditure,2018-19,drop,drop,drop,Sum of CERA lines
+total_grants_used_to_finance_capital_expenditure,2018-19,drop,drop,drop,Sum of grant lines
 capital_expenditure_financed_by_general_fund_revenue_account,2004-05,GF CERA,CERA,Financing,
 capital_expenditure_financed_from_the_general_fund_revenue_account,2016-17,GF CERA,CERA,Financing,
 general_fund_revenue_account,2018-19,GF CERA,CERA,Financing,
@@ -91,16 +115,25 @@ grants_from_other_local_authorities,2018-19,Grants from other LAs,Grant,Financin
 capital_grants_from_national_lottery,2005-06,Grants from the National Lottery,Grant,Financing,
 capital_grants_from_the_national_lottery,2016-17,Grants from the National Lottery,Grant,Financing,
 grants_from_the_national_lottery,2018-19,Grants from the National Lottery,Grant,Financing,
+gross_external_debt_as_at_1_april_2017,2017-18,Gross external debt at 1 April,Financial assets and liabilities,Prudential,
+gross_external_debt_as_at_1_april_2018,2018-19,Gross external debt at 1 April,Financial assets and liabilities,Prudential,
+gross_external_debt_as_at_31_march_2018,2017-18,Gross external debt at 31 March,Financial assets and liabilities,Prudential,
+gross_external_debt_as_at_31_march_2019,2018-19,Gross external debt at 31 March,Financial assets and liabilities,Prudential,
 capital_expenditure_financed_from_housing_revenue_account,2004-05,HRA CERA,CERA,Financing,
 capital_expenditure_financed_from_the_housing_revenue_account,2016-17,HRA CERA,CERA,Financing,
 housing_revenue_account,2018-19,HRA CERA,CERA,Financing,
+contribution_from_housing_revenue_account,2018-19,HRA CERA in CFR,CFR,Prudential,
 settlement_payments_determination_premiums,2011-12,HRA settlement determination: premia,Receipts,HRA self-financing determination,
 settlement_payments_determination_receipts,2011-12,HRA settlement determination: receipts,Receipts,HRA self-financing determination,
 settlement_payments_determination_expenditure,2011-12,HRA settlement determination: spending,Spending,HRA self-financing determination,
 investments_as_at_1_april,2016-17,Investments at 1 April,Financial assets and liabilities,Prudential,
 investments_as_at_1_april_2004,2004-05,Investments at 1 April,Financial assets and liabilities,Prudential,
+investments_as_at_1_april_2017,2017-18,Investments at 1 April,Financial assets and liabilities,Prudential,
+investments_as_at_1_april_2018,2018-19,Investments at 1 April,Financial assets and liabilities,Prudential,
 investments_as_at_31_march,2016-17,Investments at 31 March,Financial assets and liabilities,Prudential,
 investments_as_at_31_march_2005,2004-05,Investments at 31 March,Financial assets and liabilities,Prudential,
+investments_as_at_31_march_2018,2017-18,Investments at 31 March,Financial assets and liabilities,Prudential,
+investments_as_at_31_march_2019,2018-19,Investments at 31 March,Financial assets and liabilities,Prudential,
 m12_gross_borrowing_etc_at_1_april_2004_la_companies_only,2004-05,LA companies: gross borrowing and other long-term liabilities at 1 April,memo,memo,
 m12_gross_borrowing_other_long_term_liabilities_as_at_1_apr,2005-06,LA companies: gross borrowing and other long-term liabilities at 1 April,memo,memo,
 m13_local_authority_companies_only_gross_borrowing_and_other_long_term_liabilities_as_at_1_april,2013-14,LA companies: gross borrowing and other long-term liabilities at 1 April,memo,memo,
@@ -116,27 +149,36 @@ minimum_revenue_provision,2016-17,MRP,CFR,Prudential,
 capital_expenditure_financed_by_the_major_repairs_reserve,2005-06,MRR CERA,CERA,Financing,
 capital_expenditure_financed_from_the_major_repairs_reserve_mrr,2016-17,MRR CERA,CERA,Financing,
 major_repairs_reserve,2018-19,MRR CERA,CERA,Financing,
-contributions_from_mrr,2005-06,MRR CERA in CFR,CFR,Prudential,
 contribution_from_major_repairs_reserve,2016-17,MRR CERA in CFR,CFR,Prudential,
+contributions_from_mrr,2005-06,MRR CERA in CFR,CFR,Prudential,
 on_balance_sheet_pfi_financing,2017-18,On balance sheet PFI financing,Financing,Financing,
 operational_boundary_for_external_debt_as_1_apr,2005-06,Operational boundary at 1 April,Prudential,Prudential,
 operational_boundary_for_external_debt_at_1_april,2016-17,Operational boundary at 1 April,Prudential,Prudential,
 operational_boundary_for_external_debt_at_1_april_2004,2004-05,Operational boundary at 1 April,Prudential,Prudential,
+operational_boundary_for_gross_external_debt_at_1_april_2017,2017-18,Operational boundary at 1 April,Prudential,Prudential,
+operational_boundary_for_gross_external_debt_at_1_april_2018,2018-19,Operational boundary at 1 April,Prudential,Prudential,
 operational_boundary_for_external_debt_at_31_march,2016-17,Operational boundary at 31 March,Prudential,Prudential,
 operational_boundary_for_external_debt_at_31_march_2005,2004-05,Operational boundary at 31 March,Prudential,Prudential,
-other_borrowing_and_credit_arrangements_not_supported,2005-06,Other borrowing,Borrowing,Financing,
-other_borrowing_and_credit_arrangements_not_supported_by_central_government,2016-17,Other borrowing,Borrowing,Financing,
-other_borrowing_credit_arrangements_not_supported_by_central_government,2018-19,Other borrowing,Borrowing,Financing,
+operational_boundary_for_gross_external_debt_at_31_march_2018,2017-18,Operational boundary at 31 March,Prudential,Prudential,
+operational_boundary_for_gross_external_debt_at_31_march_2019,2018-19,Operational boundary at 31 March,Prudential,Prudential,
+other_borrowing_and_credit_arrangements_not_supported,2005-06,Prudential borrowing,Borrowing,Financing,
+other_borrowing_and_credit_arrangements_not_supported_by_central_government,2016-17,Prudential borrowing,Borrowing,Financing,
+other_borrowing_credit_arrangements_not_supported_by_central_government,2018-19,Prudential borrowing,Borrowing,Financing,
 other_long_term_liabilities_as_at_1_april,2016-17,Other long-term liabilities at 1 April,Financial assets and liabilities,Prudential,
 other_long_term_liabilities_as_at_1_april_2004,2004-05,Other long-term liabilities at 1 April,Financial assets and liabilities,Prudential,
+other_long_term_liabilities_as_at_1_april_2017,2017-18,Other long-term liabilities at 1 April,Financial assets and liabilities,Prudential,
+other_long_term_liabilities_as_at_1_april_2018,2018-19,Other long-term liabilities at 1 April,Financial assets and liabilities,Prudential,
 other_long_term_liabilities_as_at_31_march,2016-17,Other long-term liabilities at 31 March,Financial assets and liabilities,Prudential,
 other_long_term_liabilities_as_at_31_march_2005,2004-05,Other long-term liabilities at 31 March,Financial assets and liabilities,Prudential,
+other_long_term_liabilities_as_at_31_march_2018,2017-18,Other long-term liabilities at 31 March,Financial assets and liabilities,Prudential,
+other_long_term_liabilities_as_at_31_march_2019,2018-19,Other long-term liabilities at 31 March,Financial assets and liabilities,Prudential,
 m7_other_section_106_amounts,2016-17,other s106 amounts,memo,memo,
 payment_of_lsvt_levy,2016-17,Payment of LSVT levy,Spending,Spending,
 capital_exp_to_be_resourced_by_means_of_credit,2005-06,Planned borrowing,CFR,Prudential,
 capital_expenditure_to_be_resourced_by_means_of_credit,2016-17,Planned borrowing,CFR,Prudential,
-capital_expenditure_to_be_resourced_by_means_of_credit_lines_26_to_28,2014-15,Planned borrowing,CFR,Prudential,
 capital_expenditure_to_be_resourced_by_means_of_credit_lines_26_to_28,2013-14,Planned borrowing,CFR,Prudential,
+capital_expenditure_to_be_resourced_by_means_of_credit_lines_26_to_28,2014-15,Planned borrowing,CFR,Prudential,
+expenditure_financed_by_other_borrowing_credit_arrangements,2018-19,Planned borrowing,CFR,Prudential,
 m6_section_106_payments_for_affordable_housing_commuted_sums,2016-17,s106 payments for affordable housing (commuted sums),memo,memo,
 sce_r_separate_programme_element,2013-14,SCE(R) Separate Programme Element,Borrowing,Financing,Supported capital expenditure (SCE) is borrowing that is partly support by central government. Discontinued as of March 31 2011
 sce_r_seperate_programme_element,2005-06,SCE(R) Separate Programme Element,Borrowing,Financing,Supported capital expenditure (SCE) is borrowing that is partly support by central government. Discontinued as of March 31 2011
@@ -146,7 +188,7 @@ total_sce_r_single_capital_pot_for_04_05,2004-05,SCE(R) Single Capital Pot,Borro
 expenditure_treated_as_capital_expenditure_by_virtue_of_a_section_16_2_b_direction,2016-17,Spending under capitalisation direction,Spending,Spending,
 expenditure_treated_as_capital_expenditure_by_virtue_of_a_section_40_6_direction,2005-06,Spending under capitalisation direction,Spending,Spending,
 total_prudential_borrowing_excluding_pfi,2018-19,Total borrowing (excl PFI),Borrowing,Financing,Sum of borrowing lines
-total_prudential_borrowing_including_pfi,2017-18,Total borrowing (incl PFI),Financing,Financing,
+total_prudential_borrowing_including_pfi,2017-18,Total borrowing (incl PFI),Financing,Financing,is PFI included or not in the previous year's borrowing var?
 total_capital_expenditure_and_other_transactions_on_an_accruals_basis_and_requiring_resource_cover,2016-17,Total capex,Spending,Spending,
 total_expenditure_and_other_transactions,2005-06,Total capex,Spending,Spending,
 total_expenditure_and_other_transactions_on_an_accruals_basis_and_requiring_resource_cover,2015-16,Total capex,Spending,Spending,
@@ -154,14 +196,13 @@ total_resources_used_to_finance_cap_expenditure,2005-06,Total capital financing,
 total_resources_used_to_finance_capital_expenditure,2016-17,Total capital financing,Financing,Financing,Sum of financing lines
 total_resources_used_to_finance_capital_expenditure_other_transactions,2018-19,Total capital financing,Financing,Financing,Sum of financing lines
 total_resources_used_to_finance_capital_expenditure_total_19_to_31,2004-05,Total capital financing,Financing,Financing,Sum of financing lines
-total_resources_used_to_finance_capital_expenditure_total_lines_16_to_28,2014-15,Total capital financing,Financing,Financing,Sum of financing lines
 total_resources_used_to_finance_capital_expenditure_total_lines_16_to_28,2013-14,Total capital financing,Financing,Financing,Sum of financing lines
+total_resources_used_to_finance_capital_expenditure_total_lines_16_to_28,2014-15,Total capital financing,Financing,Financing,Sum of financing lines
 total_resources_used_to_finance_capital_expenditure_other_transactions_pfi,2017-18,Total capital financing (incl PFI),Financing,Financing,
 total_capital_receipts_accruals,2016-17,Total capital receipts,Spending,Spending,This is the receipts figure to net off total capex
 total_receipts,2005-06,Total capital receipts,Spending,Spending,This is the receipts figure to net off total capex
 total_receipts_accruals,2015-16,Total capital receipts,Spending,Spending,This is the receipts figure to net off total capex
-total_revenue_account_resources_used_to_finance_capital_expenditure,2018-19,Total CERA,CERA,Financing,Sum of CERA lines
-total_grants_used_to_finance_capital_expenditure,2018-19,Total grants used to finance capital expenditure,Grant,Financing,Sum of grant lines
 hra_capital_expenditure,2015-16,Total HRA capex,Spending,Spending,
 of_which_is_hra_capital_expenditure,2016-17,Total HRA capex,Spending,Spending,Component of total capex
 use_of_receipts,2016-17,Use of receipts,CFR,Prudential,
+use_of_receipts_to_repay_credit_liabilities_please_include_hra_repayment_debt_if_relevant,2018-19,Use of receipts,CFR,Prudential,
