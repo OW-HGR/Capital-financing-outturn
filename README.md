@@ -18,49 +18,56 @@ If you then run `00 Wrapper` it will work load the required libraries, run throu
 The module `01 read data from xlsx.R` can be thought of in three parts:
 1. the first part, to around line 60, locates the data within the project folder and assigns the routing information to R objects that can be called later. The full file name of each publication is assigned to a shorter code (eg `COR4_Total_capital_expenditure___receipts_Financing___Prudential_information 1617.xlsx` becomes `COR_1617`), and the tab labels of each publication are read in as a string, using a UDF `tab_names`.
 
-2. the second part from around line 65 to line 100 strings together another UDF `read()` and a couple of dplyr functions to clean each table. The data is read in from the required tab, the column names are assigned from whichever row they are in in the original table, and any unwanted rows from the top of the sheet are dropped. The table is then converted to long-format <see [here](https://en.wikipedia.org/wiki/Wide_and_narrow_data)>.
+2. the second part from around line 65 to line 100 strings together another UDF `read()` and a couple of dplyr functions to clean each table. The data is read in from the required tab, the column names are assigned from whichever row they are in in the original table, and any unwanted rows from the top of the sheet are dropped. The table is then converted to long-format (see [here](https://en.wikipedia.org/wiki/Wide_and_narrow_data)). A column is added with the year, and then the metadata of the original publication is added to the end: a column each for file name, tab, and publication date.
 
-. The identification of the row with the column names was done manually because we want to be extra sure that we've got the right value. 40 tabs are used as of Q2 2019-20.
+3. the third part form line 100 to the end converts the tables into a single stack. There are some duplicates which are removed. Columns are renamed as required and vectors are formatted as numerics or factors as required. Finally, the table is converted from wide format, just to check that there are no duplicate rows. 
 
-The data is originally published in a wide format: a row for each LA, a column for each variable, and a value at the intersection of each. This script converts these to a long format, where there is only one value per row, with the metadata given as columns. More on the difference between wide data and long data 
-
-The 40 long tables are then labelled with the coverage date and the name of the original spreadsheet and tab, stacked into one table, tidied up to remove unwanted columns and rows, and formatted to set the data types of the vectors to numerics and factors.
-
-Because tabs are loaded by index number rather than name, and dates are added manually, there is a risk that the wrong date is applied. There is a check built in here that write a table showing the date and tab name. Just check that they are aligned. 
-
-### Step 2: fix errors
-This second module `02 fix errors.R` fixes a few errors that have been identified in the data. These are:
-1. Forest of Dean appears twice in 2008-09. This step drops the duplicates.
-2. From Q4 2018-19 to Q2 2019-20 inclusive there are entries for both `Essex Police, Fire and Crime Commissioner Fire and Rescue Authority` and `Essex Police, Fire and Crime Commissioner Police Authority`. They seem to be the same organisation. All the values for the second one are 0. To fix this, all reference to the second one are filtered out. The reason this is done by explicit filtering here rather than re-coding the organisation name to `drop` in the lookup table is as a precation in case the organisation name is used for non-zero values in the future. 
-3. In Q3 2016-17, short-term inter-authority borrowing is incorrectly labelled as long-term, and the values for long-term inter-authority lending are missing. This is addressed by fixing the labelling error and setting NAs for long-term borrowing.
-
-### Step 3: standardise coding of entities and variables
+### Step 2: standardise coding of entities and variables
 The third module `03 standardise vars and entities.R` deals with the issue of stylistic variation between releases. 
 
-LA names are addressed first. A lookup table is loaded that contains all the variations of the names of LAs that was found in previous releases of the debt and investment series, and their standardised form. This lookup is included in this repo, in the `Libraries` folder. Here is a sample to illustrate the issue:
+Variable names are addressed first. A lookup table is loaded that contains all the variations of the variables that were found in previous releases of the COR, and their standardised form. This lookup is included in this repo, in the `Libraries` folder. Here is a sample to illustrate the issue:
 
-|`original_LA_name`|`continuity_LA_name`|
+|`original_variable`|`continuity_variable`|
 |---|---|
-|Brighton and Hove|Brighton & Hove|
-|Brighton & Hove|Brighton & Hove|
-|Brighton & Hove UA|Brighton & Hove|
+|capital_grants_and_contributions_from_private_developers|Developer contributions|
+|grants_and_contributions_from_private_developers_and_from_leaseholders_etc|Developer contributions|
+|grants_contributions_from_private_developers|Developer contributions|
+|grants_from_private_developers_leaseholders_etc|Developer contributions|
 
-This lookup is merged into the long table produced in module one. An error log is produced for any LA names that are in the data but missing from the lookup table, and written out to the `Logs` folder in the working directory that you have set in `00 Wrapper`. If an undefined value is written out, just paste it onto the end of the `original_LA_name` column in the lookup table, and provide a corresponding value for the `continuity_LA_name` column. This processes is based on names rather than ecode because not all datasets contain an ecode, and because a mis-labelled ecode is more likely to go unnoticed. 
+This lookup was built by starting with the variables that appear in 2018-19, standardising these, and then working backwards one year at a time to pick up any variables that have not yet been picked up. This is recorded in the column `year last seen`. The aim of this is to make it easier to tell if a variable was discontinued or if it was just significantly renamed between releases - helpful for the variables about receipts, borrowing, and debt, which can be quite similar.
 
-The same process is then run for the variable, which in this case is the lender (for debt) or the type of investment. 
+This lookup is merged into the long table produced in module one. An error log is produced for any variables that are in the data but missing from the lookup table, and written out to the `Logs` folder in the working directory that you have set in `00 Wrapper`. If an undefined value is written out, just paste it onto the end of the `original_variable` column in the lookup table, and provide a corresponding value for the `continuity_variable` column. 
 
-The data includes totals for the UK and for E/S/W/NI. This section then checks that these add up correctly and writes a table of any discrepancies. Discrepancies under 1% are probably rounding.
+The same process is then run for the LA names. It uses names rather than ecode because not all datasets contain an ecode, and because a mis-labelled ecode is more likely to go unnoticed. 
 
-You now have a single table 353,532 rows, each with a single observation and seven variables:
+As at the end of module one, the table is converted from wide format, just to check that there are no duplicate rows. 
+
+### 03 Apply adjustments and add aggregates
+This section makes explicit the adjustments that are applied in the COR. The adjustments that are included vary from year to year. They are:
+1. An unadjusted total (`summing_adjustment`) supposedly made by summing the LAs. Sometimes this differs from the actual sum.
+2. A grossing adjustment (`grossing_adjustment`) to add in a estimate of spending by LAs that didn't submit returns.
+3. A London adjustment (`GLA_adjustment`) to strip out flows between the GLA and London Boroughs. 
+
+These adjustments are isolated from the sum of LAs and added in as if they were LAs called `summing_adjustment`, `grossing_adjustment` etc. These adjustments can then be combined with LA-level numbers as required.
+
+It isn't straightforward to identify the England total across years from the COR, because there are several different England totals with and without adjustments, and the coverage changes from year to year. 
+
+This section adds an LA called `England_best`, which gives the best approximation of the England total from each year, based on the adjustments used at the time. It also gives a figure for the 353 'normal' English LAs, which excludes  bodies that are categorised as OTHER in the ONS and MHCLG publications: police, fire, national parks, MCAs, and the City of London. This is called `England_353`. 
+
+`England_best` or `England_353` are usually the best ones to use for country-level analysis.
+
+You now have a single table with 243,198 rows, each with a single observation and nine variables:
 1. LA name
-2. whether the data is from the debt series or the investment series
-3. the counterparty (UK banks, PWLB etc)
-4. whether the debt is long term or short term
-5. the date of the observation
+2. `Variable_type` which gives a subset of `Data_coverage` 
+3. `Data_coverage` - whether the dataset is financing, prudential, or one of the other bits that are included in some years
+4. variable
+5. the year of the observation
 6. the units (£ms)
 7. the filename of the source publication
+8. the tab of the source publication
+9. the publication date of the source publication
 
-As a last step, the table is written out to the output folder you have set in `00 Wrapper`, and error logs are printed in the environment. If the script is working correctly there will be no entries in the error logs for `missing_LA` or `missing_counterparty` and no difference between the UK total and the sum of England, Scotland, Wales, and NI. There are 26 undercounts between the sum of individual LAs and the UK totals, but these are so small as to conceivably be rounding error.
+As a last step, the table is written out to the output folder you have set in `00 Wrapper`.
 
 ### Licence
 Unless stated otherwise, the codebase is released under [the MIT License](https://github.com/OW-HGR/Debt-and-investment-quarterly/blob/master/LICENCE.txt). This covers both the codebase and any sample code in the documentation.
