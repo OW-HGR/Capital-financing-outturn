@@ -56,7 +56,7 @@ financing_pru <- financing_pru %>%
 
 # tidy up
 financing_pru <- financing_pru %>%
-	select(continuity_LA_name, cat_1, cat_2, continuity_variable, Year, Units, value) %>%
+	select(continuity_LA_name, cat_1, cat_2, continuity_variable, Year, Units, value, source_publication, tab, published) %>%
 	rename(LA = continuity_LA_name, 
 				 Variable_type = cat_1, 
 				 Data_coverage = cat_2, 
