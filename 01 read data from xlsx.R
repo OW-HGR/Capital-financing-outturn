@@ -7,8 +7,12 @@ library("fs")			# cross-platform, uniform interface to file system operations
 # original file names have been preserved other than where they are missing a date, in which case it is added at the end
 setwd(paste(project_folder, "Source data", sep = ""))
 
-COR_1819 <- "COR_2018-19_outputs_COR_B.xlsx"
-COR_1718 <- "FINAL_COR_B 1718.xlsx" 
+COR_pru_1819 <- "COR_2018-19_outputs_COR_C.xlsx" # 26 September 2019
+COR_pru_1718 <- "FINAL_COR_C 1718.xlsx" # 11 October 2018
+
+COR_fin_1819 <- "COR_2018-19_outputs_COR_B.xlsx"
+COR_fin_1718 <- "FINAL_COR_B 1718.xlsx" 
+
 COR_1617 <- "COR4_Total_capital_expenditure___receipts_Financing___Prudential_information 1617.xlsx"
 COR_1516 <- "LA_drop-down_capital_expenditure_receipts_and_financing_COR4_2015-16.xls"
 COR_1415 <- "LA_drop-down_capital_expenditure_receipts_and_financing_COR4_2014-15.xls"
@@ -35,8 +39,12 @@ tab_names <- function(source_table) {
 		mutate(tabs = as.character(tabs))
 }
 
-tabs_1819 <- tab_names(COR_1819)
-tabs_1718 <- tab_names(COR_1718)
+tabs_pru_1819 <- tab_names(COR_pru_1819)
+tabs_fin_1819 <- tab_names(COR_fin_1819)
+
+tabs_pru_1718 <- tab_names(COR_pru_1718)
+tabs_fin_1718 <- tab_names(COR_fin_1718)
+
 tabs_1617 <- tab_names(COR_1617)
 tabs_1516 <- tab_names(COR_1516)
 tabs_1415 <- tab_names(COR_1415)
@@ -64,8 +72,13 @@ read <- function(sheet_name, tab_number, col_name_row_num, drop_depth) {
 }
 
 # load each tab, convert to long-format, label
-fin_1819 <- read(COR_1819, 5, 4, -4) %>% gather(var, value, 6:25) %>% mutate(Year = "2018-19", source = COR_1819, tab = tabs_1819[5,], published = "26 September 2019")
-fin_1718 <- read(COR_1718, 4, 4, -5) %>% gather(var, value, 6:28) %>% mutate(Year = "2017-18", source = COR_1718, tab = tabs_1718[4,], published = "11 October 2018")
+CFR_1819 <- read(COR_pru_1819, 5, 4, -4) %>% gather(var, value, 6:15) %>% mutate(Year = "2018-19", source = COR_pru_1819, tab = tabs_pru_1819[5,], published = "26 September 2019")
+borrowing_lending_1819 <- read(COR_pru_1819, 6, 4, -4) %>% gather(var, value, 6:24)  %>% mutate(Year = "2018-19", source = COR_pru_1819, tab = tabs_pru_1819[6,], published = "26 September 2019")
+fin_1819 <- read(COR_fin_1819, 5, 4, -4) %>% gather(var, value, 6:25) %>% mutate(Year = "2018-19", source = COR_fin_1819, tab = tabs_fin_1819[5,], published = "26 September 2019")
+
+pru_1718 <- read(COR_pru_1718,4, 4, -4) %>% gather(var, value, 6:34) %>% mutate(Year = "2017-18", source = COR_pru_1718, tab = tabs_pru_1718[4,], published = "11 October 2018")
+fin_1718 <- read(COR_fin_1718, 4, 4, -5) %>% gather(var, value, 6:28) %>% mutate(Year = "2017-18", source = COR_fin_1718, tab = tabs_fin_1718[4,], published = "11 October 2018")
+
 fin_1617 <- read(COR_1617, 5, 6, -6) %>% gather(var, value, 5:49) %>% mutate(Year = "2016-17", source = COR_1617, tab = tabs_1617[5,], published = "28 September 2017")
 fin_1516 <- read(COR_1516, 4, 1, -1) %>% gather(var, value, 5:47) %>% mutate(Year = "2015-16", source = COR_1516, tab = tabs_1516[4,], published = "15 September 2016")
 fin_1415 <- read(COR_1415, 4, 1, -1) %>% gather(var, value, 4:42) %>% mutate(Year = "2014-15", source = COR_1415, tab = tabs_1415[4,], published = "7 October 2015") %>% rename(la_name = na_2)
@@ -85,10 +98,14 @@ fin_0102 <- read(COR_0102, 4, 1, -1) %>% gather(var, value, 5:56) %>% mutate(Yea
 fin_0001 <- read(COR_0001, 4, 1, -2) %>% gather(var, value, 5:57) %>% mutate(Year = "2000-01", source = COR_0001, tab = tabs_0001[4,], published = "Published 1 August 2013")
 
 # GLA appears twice in 1718 and 1819 - once as an LA and once as a category. drop the second one to avoid double counting
-fin_1819 <- fin_1819 %>% filter(class != "GLA")
-fin_1718 <- fin_1718 %>% filter(class != "GLAG")
+# Some entities have an `NA` value for class. Include these explicitly or they will be dropped by filter()
+fin_1819 <- fin_1819 %>% filter(class != "GLA" | is.na(class))
+CFR_1819 <- CFR_1819 %>% filter(class != "GLA" | is.na(class))
+borrowing_lending_1819 <- borrowing_lending_1819 %>% filter(class != "GLA" | is.na(class))
+fin_1718 <- fin_1718 %>% filter(class != "GLAG" | is.na(class))
+pru_1718 <- pru_1718 %>% filter(class != "GLAG" | is.na(class))
 
-financing_pru <- bind_rows(fin_1819, fin_1718, fin_1617, fin_1516, fin_1415, fin_1314, fin_1213, fin_1112, fin_1011, fin_0910, fin_0809, fin_0708, fin_0607, fin_0506, fin_0405, fin_0304, fin_0203, fin_0102, fin_0001) %>% 
+financing_pru <- bind_rows(CFR_1819, borrowing_lending_1819, fin_1819, pru_1718, fin_1718, fin_1617, fin_1516, fin_1415, fin_1314, fin_1213, fin_1112, fin_1011, fin_0910, fin_0809, fin_0708, fin_0607, fin_0506, fin_0405, fin_0304, fin_0203, fin_0102, fin_0001) %>% 
 	select(-c(lgf_code, ons_code, ecode, class, subclass, region, na, na_3, na_4)) %>%
 	rename(source_publication = source,
 				 original_LA_name = la_name,
@@ -99,13 +116,15 @@ financing_pru <- bind_rows(fin_1819, fin_1718, fin_1617, fin_1516, fin_1415, fin
 				 value = value/ 1000,
 				 Units = "GBPmillion",
 				 Year = as.factor(Year),
+				 Units = as.factor(Units),
 				 source_publication = as.factor(source_publication),
 				 tab = as.factor(tab),
 				 published = as.factor(published)) %>%
-	filter(!is.na(value))
+	filter(!is.na(value)) %>%
+	filter(!is.na(original_LA_name))
 				 
-rm(fin_1819, fin_1718, fin_1617, fin_1516, fin_1415, fin_1314, fin_1213, fin_1112, fin_1011, fin_0910, fin_0809, fin_0708, fin_0607, fin_0506, fin_0405, fin_0304, fin_0203, fin_0102, fin_0001)
-rm(tabs_1819, tabs_1718, tabs_1617, tabs_1516, tabs_1415, tabs_1314, tabs_1213, tabs_1112, tabs_1011, tabs_0910, tabs_0809, tabs_0708, tabs_0607, tabs_0506, tabs_0405, tabs_0304, tabs_0203, tabs_0102, tabs_0001)
+rm(CFR_1819, borrowing_lending_1819, fin_1819, pru_1718, fin_1718, fin_1617, fin_1516, fin_1415, fin_1314, fin_1213, fin_1112, fin_1011, fin_0910, fin_0809, fin_0708, fin_0607, fin_0506, fin_0405, fin_0304, fin_0203, fin_0102, fin_0001)
+rm(tabs_pru_1819, tabs_fin_1819, tabs_pru_1718, tabs_fin_1718, tabs_1617, tabs_1516, tabs_1415, tabs_1314, tabs_1213, tabs_1112, tabs_1011, tabs_0910, tabs_0809, tabs_0708, tabs_0607, tabs_0506, tabs_0405, tabs_0304, tabs_0203, tabs_0102, tabs_0001)
 
 financing_pru_wide <- financing_pru %>% select(-c(source_publication, tab, published)) %>% spread(Year, value)
 
