@@ -8,7 +8,7 @@ The approach can be applied to lots of different publications. Here, it is appli
 The workflow is broken up into thematic modules that should be run in order. To set up your working environment:
 1. Clone this project to your computer.
 
-2. Get the data. Data back to 2000-01 is available here on [on GOV.UK](https://www.gov.uk/government/collections/local-authority-capital-expenditure-receipts-and-financing). The publications used here are included in the repo. Each sheet contains a series of tabs. Each tab has a table with a row for each LA, and a column for each of the variables of interest. 
+2. Get the data. Data back to 2000-01 is available [here](https://www.gov.uk/government/collections/local-authority-capital-expenditure-receipts-and-financing) on GOV.UK. The publications used here are included in the repo. Each sheet contains a series of tabs. Each tab has a table with a row for each LA, and a column for each of the variables of interest. 
 
 3. Open the script called `00 Wrapper` and set your file path for your project folder and your output folder. You can also toggle the option to write out the latest working table at the end of each module. This is switched off by default but can be useful for debugging.
 
