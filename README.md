@@ -55,7 +55,7 @@ It isn't straightforward to identify the England total across years from the COR
 You now have a single table with 243,198 rows, each with a single observation and nine variables:
 1. LA name
 2. `Data_coverage` - whether the dataset is financing, prudential, or one of the other bits that are included in some years
-3. `Variable_type` which gives a further breakdown of `Data_coverage` 
+3. `Variable_type` gives a higher-level category for each variable, eg is it a central government grant, part of the Capital Financing Requirement etc
 4. variable
 5. the year of the observation
 6. the units (£ms)
