@@ -9,15 +9,15 @@ financing_pru <- financing_pru %>% filter(!Year %in% c("2000-01", "2001-02", "20
 setwd(paste(project_folder, "Libraries", sep = ""))
 
 fin_pru_lib <- read.csv("financing_pru_var_lib.csv") %>%
-	select(-year_last_seen) %>% unique()
+	select(-year_last_seen) %>% distinct()
 
 financing_pru <- left_join(financing_pru, fin_pru_lib)
 
 missing_var <- financing_pru %>% select(original_variable, continuity_variable, Year) %>%
 	filter(is.na(continuity_variable)) %>%
-	unique()
+	distinct()
 
-# -------------------------------------------  write error logs for any undefined values
+# -------------------------------------------  write error logs for any undefined variables
 setwd(paste(project_folder, "Logs", sep = ""))
 
 write.csv(missing_var, file = "missing_var.csv", row.names = FALSE)
@@ -31,7 +31,7 @@ financing_pru <- financing_pru %>%
 # -------------------------------------------------------------------------------- Standardise LA names
 setwd(paste(project_folder, "Libraries", sep = ""))
 
-LA_name_lookup <- read.csv("la_names_lookup.csv") %>% unique() %>% 
+LA_name_lookup <- read.csv("la_names_lookup.csv") %>% distinct() %>% 
 	`colnames<-` (c("original_LA_name", "continuity_LA_name")) 
 
 financing_pru <- financing_pru %>% 
@@ -39,12 +39,12 @@ financing_pru <- financing_pru %>%
 
 rm(LA_name_lookup)
 
-#write out missing LA names
+# -------------------------------------------  write error logs for any undefined LA names
 missing_LA <- financing_pru %>%
 	select(original_LA_name, Year, continuity_LA_name) %>%
 	filter(is.na(continuity_LA_name)) %>% 
 	select(-Year) %>%
-	unique()
+	distinct()
 
 setwd(paste(project_folder, "Logs", sep = ""))
 
@@ -54,7 +54,7 @@ rm(missing_LA)
 financing_pru <- financing_pru %>% 
 	filter(!continuity_LA_name %in% c("CHECK", "drop")) # the LA that appears here as `CHECK` is a single, unlabelled, white-font value that appears in the publication
 
-# tidy up
+# -------------------------------------------------------------------------------- tidy up the table
 financing_pru <- financing_pru %>%
 	select(continuity_LA_name, cat_1, cat_2, continuity_variable, Year, Units, value, source_publication, tab, published) %>%
 	rename(LA = continuity_LA_name, 

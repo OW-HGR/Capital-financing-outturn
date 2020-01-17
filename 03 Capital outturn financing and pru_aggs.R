@@ -67,7 +67,7 @@ rm(England_adjustments, England_best)
 setwd(paste(project_folder, "Libraries", sep = ""))
 
 LA_name_lookup <- read.csv("england_353_lib.csv") %>% 
-	unique() %>% 
+	distinct() %>% 
 	`colnames<-` (c("continuity_LA_name", "class"))  # overrides any encoding glitches
 
 financing_pru <- financing_pru %>% 
@@ -77,7 +77,7 @@ financing_pru <- financing_pru %>%
 missing_match <- financing_pru %>% 
 	select(LA, class) %>% 
 	filter(is.na(class)) %>% 
-	unique()
+	distinct()
 
 England_353 <- financing_pru %>% 
 	filter(!class %in% c("Adjustment", "OTHER")) %>%
@@ -89,7 +89,7 @@ financing_pru <- bind_rows(financing_pru, England_353) %>%
 	select(-class) %>%
 	mutate(LA = as.factor(LA))
 
-rm(LA_name_lookup, England_353, missing_match)
+rm(LA_name_lookup, England_adjustments, England_best, England_353, missing_match)
 # -------------------------------------------------------------------------------- add missing aggregates
 financing_pru_wide <- financing_pru %>% select(-c(source_publication, tab, published)) %>% spread(Year, Value)
 
