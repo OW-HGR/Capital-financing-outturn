@@ -16,8 +16,9 @@ GLA_adjustment <- financing_pru %>% filter(LA == "England (grossed, with GLA adj
 England_sum <- financing_pru %>%
 	filter(!LA %in% c("England (grossed* excluding double counting**)", "England (grossed*)", "England (grossed)", "England (adjusted)", "England", "England (grossed, with GLA adjustment)")) %>%
 	group_by(Data_coverage, Variable_type, Variable, Year, Units, source_publication, tab, published) %>%
-	transmute(LA_sum = as.numeric(Value)) %>%
-	summarise(LA_sum = sum(LA_sum, na.rm = TRUE))
+#	transmute(LA_sum = as.numeric(Value)) %>%
+	summarise(LA_sum = sum(Value, na.rm = TRUE)) %>%
+	ungroup()
 
 # isolate differences
 England_adjustments <- England_sum %>%
@@ -30,7 +31,7 @@ England_adjustments <- England_sum %>%
 	left_join(GLA_adjustment) %>%
 	mutate(GLA_adjustment = round(England_grossed_GLA - England_grossed, 3)) %>%
 
-	gather(LA, Value, 6:12) %>%
+	gather(LA, Value, 9:15) %>%
 	filter(!is.na(Value)) %>%
 
 	filter(!(LA == "summing_adjustment" & Value == 0.000)) %>%
@@ -54,7 +55,7 @@ England_adjustments <- England_adjustments %>%
 	filter(LA %in% c("grossing_adjustment", "GLA_adjustment", "summing_adjustment"))
 
 financing_pru <- bind_rows(
-	filter(financing_pru, !LA %in% c("England (grossed* excluding double counting**)", "England (grossed*)", "England (grossed)", "England (adjusted)", "England", "England (grossed, with GLA adjustment)")),
+	financing_pru %>% filter(!LA %in% c("England (grossed* excluding double counting**)", "England (grossed*)", "England (grossed)", "England (adjusted)", "England", "England (grossed, with GLA adjustment)")),
 	England_adjustments,
 	England_best)
 
@@ -89,7 +90,7 @@ financing_pru <- bind_rows(financing_pru, England_353) %>%
 	select(-class) %>%
 	mutate(LA = as.factor(LA))
 
-rm(LA_name_lookup, England_adjustments, England_best, England_353, missing_match)
+rm(LA_name_lookup, England_353, missing_match)
 # -------------------------------------------------------------------------------- add missing aggregates
 financing_pru_wide <- financing_pru %>% select(-c(source_publication, tab, published)) %>% spread(Year, Value)
 
@@ -98,4 +99,5 @@ setwd(output_folder)
 
 filter(financing_pru, Data_coverage == "Financing") %>% write.csv(file = "Capital financing outturn, 2004-05 to 2018-19.csv", row.names = FALSE)
 filter(financing_pru, Data_coverage == "Prudential") %>% write.csv(file = "Prudential indicators, 2004-05 to 2018-19.csv", row.names = FALSE)
+
 
