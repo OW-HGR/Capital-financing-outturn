@@ -24,13 +24,13 @@ Mac_15_output_folder <- "/Users/mbp15/Dropbox/Output/"
 Mac_12_output_folder <- "/Users/oscarwilliamson/Dropbox/Dropbox/Output/"
 
 output_folder <- Mac_15_output_folder
-	
-#	decide if you want each script to write out intermediate outputs and drop the tables, or just keep them loaded in the environment
-write_out_y_n <- "n"
 
 #	run scripts. tell it to return to the project folder after each one so it can find the next script
 setwd(project_folder)
-source("01 read data from xlsx.R")
+source("01a read newer data from xlsx.R")
+
+setwd(project_folder)
+source("01b read older data from xlsx.R")
 
 setwd(project_folder)
 source("02 standardise entities and vars.R")

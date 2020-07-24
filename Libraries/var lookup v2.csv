@@ -1,0 +1,194 @@
+original_variable,continuity_variable,category_1,category_2,coverage
+additional_contribution_from_revenue,Additional contribution from revenue,Non-borrowing contributor,CFR,CFR
+prurpyrevadd_amt,Additional contribution from revenue,Non-borrowing contributor,CFR,CFR
+adjustments_for_land_and_capital_receipts_crossing_hra_boundary,Adjustments for land and capital receipts crossing HRA boundary,Non-borrowing contributor,CFR,CFR
+authorised_limit_for_external_debt_at_1_april,Authorised limit,Year open,,Prudential
+authorised_limit_for_external_debt_at_1_april_2004,Authorised limit,Year open,,Prudential
+authorised_limit_for_external_debt_at_31_march,Authorised limit,Year end,,Prudential
+authorised_limit_for_external_debt_at_31_march_2005,Authorised limit,Year end,,Prudential
+prulmt_end,Authorised limit,Year end,,Prudential
+prulmt_strt,Authorised limit,Year open,,Prudential
+m8_capital_expenditure_financed_by_the_community_infrastructure_levy_cil,Capex financed by CIL,memo,memo,Financing
+rec_recusdflx_amt,Capital receipts used to finance revenue expenditure,memo,Aggregate,Financing
+capital_financing_requirement_as_at_1_april,CFR,Year open,,Prudential
+capital_financing_requirement_as_at_1_april_2004,CFR,Year open,,Prudential
+capital_financing_requirement_as_at_31_march,CFR,Year end,,Prudential
+capital_financing_requirement_as_at_31_march_2005,CFR,Year end,,Prudential
+capital_financing_requirement_as_at_31_march_line_30_plus_line_36,CFR,Year end,,Prudential
+change_in_capital_financing_requirement,CFR,In-year change,,Prudential
+change_in_capital_financing_requirement_line_31_less_lines_32_to_35,CFR,In-year change,,Prudential
+prucfrchng_amt,CFR,In-year change,,Prudential
+prucfrend_amt,CFR,Year end,,Prudential
+prucfrstrt_amt,CFR,Year open,,Prudential
+prurpyhraadj_amt,Contribution from Housing Revenue Account,Non-borrowing contributor,CFR,CFR
+contribution_from_major_repairs_reserve,Contribution from Major Repairs Reserve,Non-borrowing contributor,CFR,CFR
+contributions_from_mrr,Contribution from Major Repairs Reserve,Non-borrowing contributor,CFR,CFR
+prurpymrr_amt,Contribution from Major Repairs Reserve,Non-borrowing contributor,CFR,CFR
+fingrnothpri_amt,Developer contributions,Developer contributions,Aggregate,Financing
+grants_and_contributions_from_private_developers_and_from_leaseholders_etc,Developer contributions,Developer contributions,Aggregate,Financing
+grants_contributions_from_private_developers,Developer contributions,Developer contributions,Aggregate,Financing
+capital_grants_and_contributions_from_private_developers,Developer contributions,Developer contributions,Aggregate,Financing
+m3_section_16_2_b_equal_pay_directions,Equal pay directions,Use of capitalisation,memo,Other spending
+capital_exp_to_be_resourced_by_means_of_credit,Expenditure financed by external borrowing and credit,Borrowing need,CFR,CFR
+capital_expenditure_to_be_resourced_by_means_of_credit,Expenditure financed by external borrowing and credit,Borrowing need,CFR,CFR
+capital_expenditure_to_be_resourced_by_means_of_credit_lines_26_to_28,Expenditure financed by external borrowing and credit,Borrowing need,CFR,CFR
+prufinoth_amt,Expenditure financed by external borrowing and credit,Borrowing need,CFR,CFR
+capital_expenditure_financed_by_general_fund_revenue_account,General Fund CERA,CERA,Component,Financing
+capital_expenditure_financed_from_the_general_fund_revenue_account,General Fund CERA,CERA,Component,Financing
+finfundgfra_amt,General Fund CERA,CERA,Component,Financing
+grants_and_contributions_from_local_enterprise_partnerships,Grants and contributions from LEPs,,,Financing
+capital_grants_from_central_government_departments,Grants from central government departments,Grants,Component,Financing
+capital_grants_from_central_govt_deptmnts,Grants from central government departments,Grants,Component,Financing
+fingrngov_amt,Grants from central government departments,Grants,Component,Financing
+capital_grants_from_european_union_structural_funds,Grants from European structural & investment funds ,Grants,Component,Financing
+capital_grants_from_european_union_structural_funds_including_erdf,Grants from European structural & investment funds ,Grants,Component,Financing
+fingrnothesif_amt,Grants from European structural & investment funds ,Grants,Component,Financing
+capital_funding_from_gla_bodies,Grants from GLA bodies,Grants,Component,Financing
+fingrnothgovgla_amt,Grants from GLA bodies,Grants,Component,Financing
+fingrnothgovlep_amt,Grants from LEPs,Grants,Component,Financing
+capital_grants_and_contributions_from_non_departmental_public_bodies,Grants from NDPBs,Grants,Component,Financing
+fingrnothndpb_amt,Grants from NDPBs,Grants,Component,Financing
+grants_and_contributions_from_non_departmental_public_bodies,Grants from NDPBs,Grants,Component,Financing
+grants_contributions_from_non_departmental_public_bodies,Grants from NDPBs,Grants,Component,Financing
+fingrnothgovla_amt,Grants from other local authorities,Grants,Component,Financing
+capital_grants_from_national_lottery,Grants from the National Lottery,Grants,Component,Financing
+capital_grants_from_the_national_lottery,Grants from the National Lottery,Grants,Component,Financing
+fingrnothlot_amt,Grants from the National Lottery,Grants,Component,Financing
+gross_borrowing_as_at_1_april,Gross borrowing,Year open,,Prudential
+gross_borrowing_as_at_1_april_2004,Gross borrowing,Year open,,Prudential
+gross_borrowing_as_at_31_march,Gross borrowing,Year end,,Prudential
+gross_borrowing_as_at_31_march_2005,Gross borrowing,Year end,,Prudential
+prubrwgrs_chng,Gross borrowing,In-year change,,Prudential
+prubrwgrs_end,Gross borrowing,Year end,,Prudential
+prubrwgrs_strt,Gross borrowing,Year open,,Prudential
+m12_gross_borrowing_etc_at_1_april_2004_la_companies_only,Gross borrowing and other long-term liabilities in LA-owned companies,Year open,memo,Prudential
+m12_gross_borrowing_other_long_term_liabilities_as_at_1_apr,Gross borrowing and other long-term liabilities in LA-owned companies,Year open,memo,Prudential
+m13_gross_borrowing_etc_at_31_march_2005_la_companies_only,Gross borrowing and other long-term liabilities in LA-owned companies,Year end,memo,Prudential
+m13_gross_borrowing_other_long_term_liabilities_as_at_31_march,Gross borrowing and other long-term liabilities in LA-owned companies,Year end,memo,Prudential
+m13_local_authority_companies_only_gross_borrowing_and_other_long_term_liabilities_as_at_1_april,Gross borrowing and other long-term liabilities in LA-owned companies,Year open,memo,Prudential
+m14_local_authority_companies_only_gross_borrowing_and_other_long_term_liabilities_as_at_1_april,Gross borrowing and other long-term liabilities in LA-owned companies,Year open,memo,Prudential
+m14_local_authority_companies_only_gross_borrowing_and_other_long_term_liabilities_as_at_31_march,Gross borrowing and other long-term liabilities in LA-owned companies,Year end,memo,Prudential
+m15_local_authority_companies_only_gross_borrowing_and_other_long_term_liabilities_as_at_31_march,Gross borrowing and other long-term liabilities in LA-owned companies,Year end,memo,Prudential
+prubrwgrscrdt_chng,Gross external debt,In-year change,,Prudential
+prubrwgrscrdt_end,Gross external debt,Year end,,Prudential
+prubrwgrscrdt_strt,Gross external debt,Year open,,Prudential
+capital_expenditure_financed_from_housing_revenue_account,HRA CERA,CERA,Component,Financing
+capital_expenditure_financed_from_the_housing_revenue_account,HRA CERA,CERA,Component,Financing
+finfundhra_amt,HRA CERA,CERA,Component,Financing
+x2003_04_income_accrued_in_03_04_but_received_in_04_05,Income accrued in the previous year but received this year,,,Receipts
+investments_as_at_1_april,Investments,Year open,,Prudential
+investments_as_at_1_april_2004,Investments,Year open,,Prudential
+investments_as_at_31_march,Investments,Year end,,Prudential
+investments_as_at_31_march_2005,Investments,Year end,,Prudential
+pruinv_chng,Investments,In-year change,,Prudential
+pruinv_end,Investments,Year end,,Prudential
+pruinv_strt,Investments,Year open,,Prudential
+finothgla_amt,Loans and other assistance from GLA bodies,Borrowing,Component,Financing
+finothlep_amt,Loans and other assistance from LEPs,Borrowing,Component,Financing
+finothla_amt,Loans other assistance from other local authorities ,Borrowing,Component,Financing
+m4_section_16_2_b_local_public_service_agreements,Local public service agreements,Use of capitalisation,memo,Other spending
+capital_expenditure_financed_by_the_major_repairs_reserve,Major Repairs Reserve CERA,CERA,Component,Financing
+capital_expenditure_financed_from_the_major_repairs_reserve_mrr,Major Repairs Reserve CERA,CERA,Component,Financing
+finfundmrr_amt,Major Repairs Reserve CERA,CERA,Component,Financing
+prubrwnet_chng,Net external debt,In-year change,,Prudential
+prubrwnet_end,Net external debt,Year end,,Prudential
+prubrwnet_strt,Net external debt,Year open,,Prudential
+finothpfi_amt,On-balance sheet PFI financing,memo,memo,Financing
+operational_boundary_for_external_debt_as_1_apr,Operational boundary,Year open,,Prudential
+operational_boundary_for_external_debt_at_1_april,Operational boundary,Year open,,Prudential
+operational_boundary_for_external_debt_at_1_april_2004,Operational boundary,Year open,,Prudential
+operational_boundary_for_external_debt_at_31_march,Operational boundary,Year end,,Prudential
+operational_boundary_for_external_debt_at_31_march_2005,Operational boundary,Year end,,Prudential
+prubdy_end,Operational boundary,Year end,,Prudential
+prubdy_strt,Operational boundary,Year open,,Prudential
+finothoth_amt,Other borrowing and credit arrangements not supported by central government ,Borrowing,Component,Financing
+other_borrowing_and_credit_arrangements_not_supported,Other borrowing and credit arrangements not supported by central government ,Borrowing,Component,Financing
+other_borrowing_and_credit_arrangements_not_supported_by_central_government,Other borrowing and credit arrangements not supported by central government ,Borrowing,Component,Financing
+other_long_term_liabilities_as_at_1_april,Other long-term liabilities,Year open,,Prudential
+other_long_term_liabilities_as_at_1_april_2004,Other long-term liabilities,Year open,,Prudential
+other_long_term_liabilities_as_at_31_march,Other long-term liabilities,Year end,,Prudential
+other_long_term_liabilities_as_at_31_march_2005,Other long-term liabilities,Year end,,Prudential
+prucrdt_chng,Other long-term liabilities,In-year change,,Prudential
+prucrdt_end,Other long-term liabilities,Year end,,Prudential
+prucrdt_strt,Other long-term liabilities,Year open,,Prudential
+m7_other_section_106_amounts,Other s106 amounts,memo,memo,Financing
+m3_other,Other uses of capitalisation,Use of capitalisation,memo,Other spending
+m4_other,Other uses of capitalisation,Use of capitalisation,memo,Other spending
+m5_other,Other uses of capitalisation,Use of capitalisation,memo,Other spending
+payment_of_lsvt_levy,Payment of LSVT levy,,,Other spending
+m2_pension_scheme_contributions,Pension scheme contributions,Use of capitalisation,memo,Other spending
+m2_s16_2_b_direction_expenditure_pension_scheme_contributions,Pension scheme contributions,Use of capitalisation,memo,Other spending
+m2_section_16_2_b_pension_scheme_contributions,Pension scheme contributions,Use of capitalisation,memo,Other spending
+m10_grants_loans_financial_assistance_repayments_grants,Receiving repayments of grants,component,memo,Receipts
+m11_grants_loans_financial_assistance_repayments_grants,Receiving repayments of grants,component,memo,Receipts
+m9_grants,Receiving repayments of grants,component,memo,Receipts
+m9_repayments_grants,Receiving repayments of grants,component,memo,Receipts
+m11_total_m9_m10,"Receiving repayments of grants, loans, and financial assistance",Aggregate,memo,Receipts
+m11_total_repayments_m9_to_m10,"Receiving repayments of grants, loans, and financial assistance",Aggregate,memo,Receipts
+m12_grants_loans_financial_assistance_total_m11_m12,"Receiving repayments of grants, loans, and financial assistance",Aggregate,memo,Receipts
+m13_grants_loans_financial_assistance_total_m11_m12,"Receiving repayments of grants, loans, and financial assistance",Aggregate,memo,Receipts
+m10_loans_and_financial_assistance,Receiving repayments of loans and financial assistance,component,memo,Receipts
+m11_grants_loans_financial_assistance_repayments_loans_and_financial_assistance,Receiving repayments of loans and financial assistance,component,memo,Receipts
+m10_repayments_loans_financial_assistance,"Receiving repayments of loans, and financial assistance",component,memo,Receipts
+m12_grants_loans_financial_assistance_repayments_loans_and_financial_assistance,"Receiving repayments of loans, and financial assistance",component,memo,Receipts
+m1_redundancy_costs,Redundancy costs,Use of capitalisation,memo,Other spending
+m1_s16_2_b_direction_expenditure_redundancy_costs,Redundancy costs,Use of capitalisation,memo,Other spending
+m1_section_16_2_b_redundancy_costs,Redundancy costs,Use of capitalisation,memo,Other spending
+m6_section_106_payments_for_affordable_housing_commuted_sums,s106 payments for affordable housing (commuted sums),memo,memo,Financing
+m5_land_building_works,Sales of land and buildings,component,memo,Receipts
+m5_sales_of_tangible_fixed_assets_land_bldgs_works,Sales of land and buildings,component,memo,Receipts
+m6_sales_of_tangible_fixed_assets_land_buildings_works,Sales of land and buildings,component,memo,Receipts
+m7_sales_of_tangible_fixed_assets_land_buildings_works,Sales of land and buildings,component,memo,Receipts
+m7_plant_machinery_equipment,"Sales of plant, machinery, and equipment",component,memo,Receipts
+m8_sales_of_tangible_fixed_assets_plant_machinery_equipment,"Sales of plant, machinery, and equipment",component,memo,Receipts
+m9_sales_of_tangible_fixed_assets_plant_machinery_equipment,"Sales of plant, machinery, and equipment",component,memo,Receipts
+m7_sales_of_tangible_fixed_assets_plant_mach_equip,"Sales of plant, machinery, and equipment",component,memo,Receipts
+m6_sales_of_tangible_fixed_assets_vehicles,Sales of vehicles,component,memo,Receipts
+m6_vehicles,Sales of vehicles,component,memo,Receipts
+m7_sales_of_tangible_fixed_assets_vehicles,Sales of vehicles,component,memo,Receipts
+m8_sales_of_tangible_fixed_assets_vehicles,Sales of vehicles,component,memo,Receipts
+settlement_payments_determination_expenditure,Settlement payments determination - expenditure,,,HRA Self-financing Determination
+settlement_payments_determination_premiums,Settlement payments determination - premiums,,,HRA Self-financing Determination
+settlement_payments_determination_receipts,Settlement payments determination - receipts,,,HRA Self-financing Determination
+x2003_04_expenditure_accrued_in_2003_04_but_paid_for_in_04_05,Spending accrued in the previous year but paid for this year,,,Other spending
+expenditure_treated_as_capital_expenditure_by_virtue_of_a_section_16_2_b_direction,Spending under capitalisation,,,Other spending
+expenditure_treated_as_capital_expenditure_by_virtue_of_a_section_40_6_direction,Spending under s40.6 direction,,,Other spending
+sce_r_single_capital_pot,Supported Capital Expenditure (SCE(R)),Grants,Component,Financing
+total_sce_r_single_capital_pot_for_04_05,Supported Capital Expenditure (SCE(R)),Grants,Component,Financing
+sce_r_separate_programme_element,Supported Capital Expenditure (SCE(R)) (separate programme element),Grants,Component,Financing
+sce_r_seperate_programme_element,Supported Capital Expenditure (SCE(R)) (separate programme element),Grants,Component,Financing
+total_sce_r_separate_programme_element_04_05,Supported Capital Expenditure (SCE(R)) (separate programme element),Grants,Component,Financing
+total_capital_expenditure_and_other_transactions_on_an_accruals_basis_and_requiring_resource_cover,Total capital expenditure & other transactions,Aggregate,Aggregate,Other spending
+total_expenditure_and_other_transactions,Total capital expenditure & other transactions,Aggregate,Aggregate,Other spending
+total_expenditure_and_other_transactions_on_an_accruals_basis_and_requiring_resource_cover,Total capital expenditure & other transactions,Aggregate,Aggregate,Other spending
+hra_capital_expenditure,"Total capital expenditure & other transactions, o/w HRA",memo,memo,Other spending
+of_which_is_hra_capital_expenditure,"Total capital expenditure & other transactions, o/w HRA",memo,memo,Other spending
+total_capital_receipts_accruals,Total capital receipts,,,Receipts
+total_receipts,Total capital receipts,,,Receipts
+total_receipts_accruals,Total capital receipts,,,Receipts
+finrec_amt,Total capital receipts used to finance capital expenditure,Receipts,Aggregate,Financing
+use_of_capital_receipts,Total capital receipts used to finance capital expenditure,Receipts,Aggregate,Financing
+finfund_amt,Total CERA,CERA,Aggregate,Financing
+prurpy_amt,"Total contribution from revenue, MRR, or use of receipts to repay credit liabilities",Non-borrowing contribution,CFR,CFR
+fingrn_amt,Total grants used to finance capital expenditure ,Grants,Aggregate,Financing
+finothxpfi_amt,Total prudential borrowing (excluding PFI),Borrowing,Aggregate,Financing
+finoth_amt,Total prudential borrowing (including PFI),memo,memo,Financing
+m10_sales_of_tangible_fixed_assets_total_m7_to_m9,Total receipts from fixed assets,Aggregate,memo,Receipts
+m8_total_m5_to_m7,Total receipts from fixed assets,Aggregate,memo,Receipts
+m9_sales_of_tangible_fixed_assets_total_m7_to_m9,Total receipts from fixed assets,Aggregate,memo,Receipts
+m8_sales_of_tangible_fixed_assets_total_m5_to_m7,Total receipts from tangible fixed assets,Aggregate,memo,Receipts
+total_resources_used_to_finance_cap_expenditure,Total resources used to finance capital expenditure,Aggregate,Aggregate,Financing
+total_resources_used_to_finance_capital_expenditure,Total resources used to finance capital expenditure,Aggregate,Aggregate,Financing
+total_resources_used_to_finance_capital_expenditure_total_19_to_31,Total resources used to finance capital expenditure,Aggregate,Aggregate,Financing
+total_resources_used_to_finance_capital_expenditure_total_lines_16_to_28,Total resources used to finance capital expenditure,Aggregate,Aggregate,Financing
+fingrandtot_amt,Total resources used to finance capital expenditure & other transactions,Total financing,Aggregate,Financing
+fingrandtotpfi_amt,"Total resources used to finance capital expenditure, o/w PFI",memo,memo,Financing
+m4_s16_2_b_direction_expenditure_total_m1_to_m3,Total use of capitalisation,Total capitalisation,memo,Other spending
+m4_total_m1_to_m3,Total use of capitalisation,Total capitalisation,memo,Other spending
+m5_section_16_2_b_total_m1_to_m4,Total use of capitalisation,Total capitalisation,memo,Other spending
+m5_section_16_2_b_total_m1_to_m5,Total use of capitalisation,Total capitalisation,memo,Other spending
+m6_section_16_2_b_total_m1_to_m5,Total use of capitalisation,Total capitalisation,memo,Other spending
+minimum_revenue_provision,Use of MRP,Non-borrowing contributor,CFR,CFR
+prurpyrevmrp_amt,Use of MRP,Non-borrowing contributor,CFR,CFR
+prurpyrec_amt,Use of receipts to repay credit liabilities,Non-borrowing contributor,CFR,CFR
+use_of_receipts,Use of receipts to repay credit liabilities,Non-borrowing contributor,CFR,CFR

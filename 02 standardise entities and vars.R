@@ -1,28 +1,38 @@
 # if intermediate outputs are enabled, load these outputs; else, stick with the outputs already in the environment
-setwd(paste(project_folder, "Intermediate outputs", sep = ""))
 
-ifelse(write_out_y_n == "y", financing_pru <- read.csv("01 Capital outturn financing and pru_stack.csv"), "")
+financing_pru <- bind_rows(financing_pru_before_1718, financing_pru_since_1718) %>% 
+	mutate(la_name = as.factor(la_name), variable = as.factor(variable), year = as.factor(year), source = as.factor(source), tab = as.factor(tab), units = as.factor(units), basis = as.factor(basis)) %>%
+	filter(!year %in% c("2000-01", "2001-02", "2002-03", "2003-04")) %>% # categories are very different before 2004-05 - maybe come back to this one
+	rename(source_publication = source,
+			 original_LA_name = la_name,
+			 original_variable = variable)
 
-financing_pru <- financing_pru %>% filter(!Year %in% c("2000-01", "2001-02", "2002-03", "2003-04")) # categories are very different before 2004-05 - maybe come back to this one
+financing_pru_wide <- financing_pru %>%
+	select(-c(source_publication, tab, published, basis)) %>%
+	spread(year, value)
 
 # -------------------------------------------------------------------------------- Standardise vars
 setwd(paste(project_folder, "Libraries", sep = ""))
 
-fin_pru_lib <- read.csv("financing_pru_var_lib.csv") %>%
-	select(-year_last_seen) %>% distinct()
+fin_pru_lib <- read.csv("var lookup v2.csv")
 
 financing_pru <- left_join(financing_pru, fin_pru_lib)
 
-missing_var <- financing_pru %>% select(original_variable, continuity_variable, Year) %>%
+missing_var <- financing_pru %>% 
 	filter(is.na(continuity_variable)) %>%
+	select(original_variable) %>%
 	distinct()
 
-# -------------------------------------------  write error logs for any undefined variables
+# write error logs for any undefined variables
 setwd(paste(project_folder, "Logs", sep = ""))
-
 write.csv(missing_var, file = "missing_var.csv", row.names = FALSE)
 
 rm(fin_pru_lib, missing_var)
+
+financing_pru_wide <- financing_pru %>%
+	select(-c(original_variable, source_publication, tab, published, basis)) %>%
+#	filter(original_LA_name == "Leeds" & continuity_variable == "Authorised limit" & category_1 == "Year end") %>%
+	spread(year, value)
 
 financing_pru <- financing_pru %>% 
 	filter(!continuity_variable %in% c("memo", "drop")) %>%
@@ -41,9 +51,9 @@ rm(LA_name_lookup)
 
 # -------------------------------------------  write error logs for any undefined LA names
 missing_LA <- financing_pru %>%
-	select(original_LA_name, Year, continuity_LA_name) %>%
+	select(original_LA_name, year, continuity_LA_name) %>%
 	filter(is.na(continuity_LA_name)) %>% 
-	select(-Year) %>%
+	select(-year) %>%
 	distinct()
 
 setwd(paste(project_folder, "Logs", sep = ""))
@@ -56,7 +66,7 @@ financing_pru <- financing_pru %>%
 
 # -------------------------------------------------------------------------------- tidy up the table
 financing_pru <- financing_pru %>%
-	select(continuity_LA_name, cat_1, cat_2, continuity_variable, Year, Units, value, source_publication, tab, published) %>%
+	select(continuity_LA_name, cat_1, cat_2, continuity_variable, year, Units, value, source_publication, tab, published) %>%
 	rename(LA = continuity_LA_name, 
 				 Variable_type = cat_1, 
 				 Data_coverage = cat_2, 
@@ -67,7 +77,7 @@ financing_pru <- financing_pru %>%
 setwd(paste(project_folder, "Intermediate outputs", sep = ""))
 
 financing_pru_wide <- financing_pru %>% 
-	spread(Year, Value, fill = NA)
+	spread(year, Value, fill = NA)
 
 ifelse(write_out_y_n == "y", write.csv(financing_pru, file = "02 Capital outturn financing and pru_standardise.csv", row.names = FALSE), "")
 
